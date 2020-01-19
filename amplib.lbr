@@ -1,0 +1,690 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.5.2">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="SOIC127P600X170-9T200X280L" urn="urn:adsk.eagle:footprint:16488265/1">
+<description>8-SOIC, 1.27 mm pitch, 6.00 mm span, 4.90 X 3.90 X 1.70 mm body, 2.80 X 2.00 mm thermal pad
+&lt;p&gt;8-pin SOIC package with 1.27 mm pitch, 6.00 mm span with body size 4.90 X 3.90 X 1.70 mm and thermal pad size 2.80 X 2.00 mm&lt;/p&gt;</description>
+<circle x="-2.6288" y="2.6886" radius="0.25" width="0" layer="21"/>
+<wire x1="-2" y1="2.4386" x2="-2" y2="2.5" width="0.12" layer="21"/>
+<wire x1="-2" y1="2.5" x2="2" y2="2.5" width="0.12" layer="21"/>
+<wire x1="2" y1="2.5" x2="2" y2="2.4386" width="0.12" layer="21"/>
+<wire x1="-2" y1="-2.4386" x2="-2" y2="-2.5" width="0.12" layer="21"/>
+<wire x1="-2" y1="-2.5" x2="2" y2="-2.5" width="0.12" layer="21"/>
+<wire x1="2" y1="-2.5" x2="2" y2="-2.4386" width="0.12" layer="21"/>
+<wire x1="2" y1="-2.5" x2="-2" y2="-2.5" width="0.12" layer="51"/>
+<wire x1="-2" y1="-2.5" x2="-2" y2="2.5" width="0.12" layer="51"/>
+<wire x1="-2" y1="2.5" x2="2" y2="2.5" width="0.12" layer="51"/>
+<wire x1="2" y1="2.5" x2="2" y2="-2.5" width="0.12" layer="51"/>
+<smd name="1" x="-2.4234" y="1.905" dx="1.6685" dy="0.5591" layer="1"/>
+<smd name="2" x="-2.4234" y="0.635" dx="1.6685" dy="0.5591" layer="1"/>
+<smd name="3" x="-2.4234" y="-0.635" dx="1.6685" dy="0.5591" layer="1"/>
+<smd name="4" x="-2.4234" y="-1.905" dx="1.6685" dy="0.5591" layer="1"/>
+<smd name="5" x="2.4234" y="-1.905" dx="1.6685" dy="0.5591" layer="1"/>
+<smd name="6" x="2.4234" y="-0.635" dx="1.6685" dy="0.5591" layer="1"/>
+<smd name="7" x="2.4234" y="0.635" dx="1.6685" dy="0.5591" layer="1"/>
+<smd name="8" x="2.4234" y="1.905" dx="1.6685" dy="0.5591" layer="1"/>
+<smd name="9" x="0" y="0" dx="2" dy="2.8" layer="1" thermals="no"/>
+<text x="0" y="3.5736" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-3.135" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="SOIC127P1032X265-20N" urn="urn:adsk.eagle:footprint:16488549/1">
+<description>20-SOIC, 1.27 mm pitch, 10.32 mm span, 12.80 X 7.50 X 2.65 mm body
+&lt;p&gt;20-pin SOIC package with 1.27 mm pitch, 10.32 mm span with body size 12.80 X 7.50 X 2.65 mm&lt;/p&gt;</description>
+<circle x="-4.7399" y="6.5136" radius="0.25" width="0" layer="21"/>
+<wire x1="-3.8" y1="6.2636" x2="-3.8" y2="6.5" width="0.12" layer="21"/>
+<wire x1="-3.8" y1="6.5" x2="3.8" y2="6.5" width="0.12" layer="21"/>
+<wire x1="3.8" y1="6.5" x2="3.8" y2="6.2636" width="0.12" layer="21"/>
+<wire x1="-3.8" y1="-6.2636" x2="-3.8" y2="-6.5" width="0.12" layer="21"/>
+<wire x1="-3.8" y1="-6.5" x2="3.8" y2="-6.5" width="0.12" layer="21"/>
+<wire x1="3.8" y1="-6.5" x2="3.8" y2="-6.2636" width="0.12" layer="21"/>
+<wire x1="3.8" y1="-6.5" x2="-3.8" y2="-6.5" width="0.12" layer="51"/>
+<wire x1="-3.8" y1="-6.5" x2="-3.8" y2="6.5" width="0.12" layer="51"/>
+<wire x1="-3.8" y1="6.5" x2="3.8" y2="6.5" width="0.12" layer="51"/>
+<wire x1="3.8" y1="6.5" x2="3.8" y2="-6.5" width="0.12" layer="51"/>
+<smd name="1" x="-4.6536" y="5.715" dx="2.0524" dy="0.5892" layer="1"/>
+<smd name="2" x="-4.6536" y="4.445" dx="2.0524" dy="0.5892" layer="1"/>
+<smd name="3" x="-4.6536" y="3.175" dx="2.0524" dy="0.5892" layer="1"/>
+<smd name="4" x="-4.6536" y="1.905" dx="2.0524" dy="0.5892" layer="1"/>
+<smd name="5" x="-4.6536" y="0.635" dx="2.0524" dy="0.5892" layer="1"/>
+<smd name="6" x="-4.6536" y="-0.635" dx="2.0524" dy="0.5892" layer="1"/>
+<smd name="7" x="-4.6536" y="-1.905" dx="2.0524" dy="0.5892" layer="1"/>
+<smd name="8" x="-4.6536" y="-3.175" dx="2.0524" dy="0.5892" layer="1"/>
+<smd name="9" x="-4.6536" y="-4.445" dx="2.0524" dy="0.5892" layer="1"/>
+<smd name="10" x="-4.6536" y="-5.715" dx="2.0524" dy="0.5892" layer="1"/>
+<smd name="11" x="4.6536" y="-5.715" dx="2.0524" dy="0.5892" layer="1"/>
+<smd name="12" x="4.6536" y="-4.445" dx="2.0524" dy="0.5892" layer="1"/>
+<smd name="13" x="4.6536" y="-3.175" dx="2.0524" dy="0.5892" layer="1"/>
+<smd name="14" x="4.6536" y="-1.905" dx="2.0524" dy="0.5892" layer="1"/>
+<smd name="15" x="4.6536" y="-0.635" dx="2.0524" dy="0.5892" layer="1"/>
+<smd name="16" x="4.6536" y="0.635" dx="2.0524" dy="0.5892" layer="1"/>
+<smd name="17" x="4.6536" y="1.905" dx="2.0524" dy="0.5892" layer="1"/>
+<smd name="18" x="4.6536" y="3.175" dx="2.0524" dy="0.5892" layer="1"/>
+<smd name="19" x="4.6536" y="4.445" dx="2.0524" dy="0.5892" layer="1"/>
+<smd name="20" x="4.6536" y="5.715" dx="2.0524" dy="0.5892" layer="1"/>
+<text x="0" y="7.3986" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-7.135" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="SOD5226X220N" urn="urn:adsk.eagle:footprint:16488669/1">
+<description>SOD, 5.21 mm span, 4.32 X 2.60 X 2.20 mm body
+&lt;p&gt;SOD package with 5.21 mm span with body size 4.32 X 2.60 X 2.20 mm&lt;/p&gt;</description>
+<wire x1="2.285" y1="1.46" x2="-3.4631" y2="1.46" width="0.12" layer="21"/>
+<wire x1="-3.4631" y1="1.46" x2="-3.4631" y2="-1.46" width="0.12" layer="21"/>
+<wire x1="-3.4631" y1="-1.46" x2="2.285" y2="-1.46" width="0.12" layer="21"/>
+<wire x1="2.285" y1="-1.46" x2="-2.285" y2="-1.46" width="0.12" layer="51"/>
+<wire x1="-2.285" y1="-1.46" x2="-2.285" y2="1.46" width="0.12" layer="51"/>
+<wire x1="-2.285" y1="1.46" x2="2.285" y2="1.46" width="0.12" layer="51"/>
+<wire x1="2.285" y1="1.46" x2="2.285" y2="-1.46" width="0.12" layer="51"/>
+<smd name="1" x="-1.9663" y="0" dx="2.3655" dy="1.707" layer="1"/>
+<smd name="2" x="1.9663" y="0" dx="2.3655" dy="1.707" layer="1"/>
+<text x="0" y="2.095" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-2.095" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="CAPAE1030X1050N" urn="urn:adsk.eagle:footprint:16489493/1">
+<description>ECAP (Aluminum Electrolytic Capacitor), 10.30 X 10.50 mm body
+&lt;p&gt;ECAP (Aluminum Electrolytic Capacitor) package with body size 10.30 X 10.50 mm&lt;/p&gt;</description>
+<wire x1="-5.25" y1="1.3117" x2="-5.25" y2="3.1538" width="0.12" layer="21"/>
+<wire x1="-5.25" y1="3.1538" x2="-3.1538" y2="5.25" width="0.12" layer="21"/>
+<wire x1="-3.1538" y1="5.25" x2="5.25" y2="5.25" width="0.12" layer="21"/>
+<wire x1="5.25" y1="5.25" x2="5.25" y2="1.3117" width="0.12" layer="21"/>
+<wire x1="-5.25" y1="-1.3117" x2="-5.25" y2="-3.1538" width="0.12" layer="21"/>
+<wire x1="-5.25" y1="-3.1538" x2="-3.1538" y2="-5.25" width="0.12" layer="21"/>
+<wire x1="-3.1538" y1="-5.25" x2="5.25" y2="-5.25" width="0.12" layer="21"/>
+<wire x1="5.25" y1="-5.25" x2="5.25" y2="-1.3117" width="0.12" layer="21"/>
+<wire x1="5.25" y1="-5.25" x2="-5.25" y2="-5.25" width="0.12" layer="51"/>
+<wire x1="-5.25" y1="-5.25" x2="-5.25" y2="5.25" width="0.12" layer="51"/>
+<wire x1="-5.25" y1="5.25" x2="5.25" y2="5.25" width="0.12" layer="51"/>
+<wire x1="5.25" y1="5.25" x2="5.25" y2="-5.25" width="0.12" layer="51"/>
+<smd name="1" x="-4.525" y="0" dx="4.4618" dy="2.1153" layer="1"/>
+<smd name="2" x="4.525" y="0" dx="4.4618" dy="2.1153" layer="1"/>
+<text x="0" y="5.885" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-5.885" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="SOIC127P600X175-8N" urn="urn:adsk.eagle:footprint:16497547/1">
+<description>8-SOIC, 1.27 mm pitch, 6.00 mm span, 4.90 X 3.90 X 1.75 mm body
+&lt;p&gt;8-pin SOIC package with 1.27 mm pitch, 6.00 mm span with body size 4.90 X 3.90 X 1.75 mm&lt;/p&gt;</description>
+<circle x="-2.7038" y="2.7047" radius="0.25" width="0" layer="21"/>
+<wire x1="-1.95" y1="2.5147" x2="1.95" y2="2.5147" width="0.12" layer="21"/>
+<wire x1="-1.95" y1="-2.5147" x2="1.95" y2="-2.5147" width="0.12" layer="21"/>
+<wire x1="2" y1="-2.5" x2="-2" y2="-2.5" width="0.12" layer="51"/>
+<wire x1="-2" y1="-2.5" x2="-2" y2="2.5" width="0.12" layer="51"/>
+<wire x1="-2" y1="2.5" x2="2" y2="2.5" width="0.12" layer="51"/>
+<wire x1="2" y1="2.5" x2="2" y2="-2.5" width="0.12" layer="51"/>
+<smd name="1" x="-2.5849" y="1.905" dx="1.7455" dy="0.5915" layer="1"/>
+<smd name="2" x="-2.5849" y="0.635" dx="1.7455" dy="0.5915" layer="1"/>
+<smd name="3" x="-2.5849" y="-0.635" dx="1.7455" dy="0.5915" layer="1"/>
+<smd name="4" x="-2.5849" y="-1.905" dx="1.7455" dy="0.5915" layer="1"/>
+<smd name="5" x="2.5849" y="-1.905" dx="1.7455" dy="0.5915" layer="1"/>
+<smd name="6" x="2.5849" y="-0.635" dx="1.7455" dy="0.5915" layer="1"/>
+<smd name="7" x="2.5849" y="0.635" dx="1.7455" dy="0.5915" layer="1"/>
+<smd name="8" x="2.5849" y="1.905" dx="1.7455" dy="0.5915" layer="1"/>
+<text x="0" y="3.5897" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-3.1497" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="RESC2012X65N" urn="urn:adsk.eagle:footprint:16497597/1">
+<description>Chip, 2.00 X 1.23 X 0.65 mm body
+&lt;p&gt;Chip package with body size 2.00 X 1.23 X 0.65 mm&lt;/p&gt;</description>
+<wire x1="1" y1="1.0227" x2="-1" y2="1.0227" width="0.12" layer="21"/>
+<wire x1="1" y1="-1.0227" x2="-1" y2="-1.0227" width="0.12" layer="21"/>
+<wire x1="1.075" y1="-0.7" x2="-1.075" y2="-0.7" width="0.12" layer="51"/>
+<wire x1="-1.075" y1="-0.7" x2="-1.075" y2="0.7" width="0.12" layer="51"/>
+<wire x1="-1.075" y1="0.7" x2="1.075" y2="0.7" width="0.12" layer="51"/>
+<wire x1="1.075" y1="0.7" x2="1.075" y2="-0.7" width="0.12" layer="51"/>
+<smd name="1" x="-0.9851" y="0" dx="0.9" dy="1.4174" layer="1"/>
+<smd name="2" x="0.9195" y="0" dx="1.0312" dy="1.4174" layer="1"/>
+<text x="0" y="1.6577" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.6577" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="SPEAKER">
+<pad name="P$1" x="0" y="0" drill="1.0668" shape="square"/>
+<pad name="P$2" x="2.54" y="0" drill="1.0668" shape="square"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="0" width="0.127" layer="21"/>
+<wire x1="-3.81" y1="1.27" x2="-1.27" y2="1.27" width="0.127" layer="21"/>
+<wire x1="3.81" y1="1.27" x2="6.35" y2="1.27" width="0.127" layer="21"/>
+</package>
+<package name="DIODFN2751X2800X1540-3N" urn="urn:adsk.eagle:footprint:16499384/1">
+<description>DFN3, 27.51 X 28.00 X 15.40 mm body
+&lt;p&gt;DFN3 package with body size 27.51 X 28.00 X 15.40 mm&lt;/p&gt;</description>
+<circle x="-14.4024" y="5.075" radius="0.25" width="0" layer="21"/>
+<wire x1="13.755" y1="14" x2="-13.755" y2="14" width="0.12" layer="21"/>
+<wire x1="13.755" y1="-14" x2="-13.755" y2="-14" width="0.12" layer="21"/>
+<wire x1="13.755" y1="-14" x2="-13.755" y2="-14" width="0.12" layer="51"/>
+<wire x1="-13.755" y1="-14" x2="-13.755" y2="14" width="0.12" layer="51"/>
+<wire x1="-13.755" y1="14" x2="13.755" y2="14" width="0.12" layer="51"/>
+<wire x1="13.755" y1="14" x2="13.755" y2="-14" width="0.12" layer="51"/>
+<smd name="1" x="-11.0475" y="5.075" dx="5.7018" dy="5.4418" layer="1"/>
+<smd name="2" x="-11.0475" y="-5.075" dx="5.7018" dy="5.4418" layer="1"/>
+<smd name="3" x="11.1466" y="0" dx="5.3918" dy="6.4618" layer="1"/>
+<text x="0" y="14.635" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-14.635" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="CAPAE1900X1700N" urn="urn:adsk.eagle:footprint:16499403/1">
+<description>ECAP (Aluminum Electrolytic Capacitor), 19.00 X 17.00 mm body
+&lt;p&gt;ECAP (Aluminum Electrolytic Capacitor) package with body size 19.00 X 17.00 mm&lt;/p&gt;</description>
+<wire x1="-9.5" y1="1.5092" x2="-9.5" y2="5.3776" width="0.12" layer="21"/>
+<wire x1="-9.5" y1="5.3776" x2="-5.3776" y2="9.5" width="0.12" layer="21"/>
+<wire x1="-5.3776" y1="9.5" x2="9.5" y2="9.5" width="0.12" layer="21"/>
+<wire x1="9.5" y1="9.5" x2="9.5" y2="1.5092" width="0.12" layer="21"/>
+<wire x1="-9.5" y1="-1.5092" x2="-9.5" y2="-5.3776" width="0.12" layer="21"/>
+<wire x1="-9.5" y1="-5.3776" x2="-5.3776" y2="-9.5" width="0.12" layer="21"/>
+<wire x1="-5.3776" y1="-9.5" x2="9.5" y2="-9.5" width="0.12" layer="21"/>
+<wire x1="9.5" y1="-9.5" x2="9.5" y2="-1.5092" width="0.12" layer="21"/>
+<wire x1="9.6" y1="-9.6" x2="-9.6" y2="-9.6" width="0.12" layer="51"/>
+<wire x1="-9.6" y1="-9.6" x2="-9.6" y2="9.6" width="0.12" layer="51"/>
+<wire x1="-9.6" y1="9.6" x2="9.6" y2="9.6" width="0.12" layer="51"/>
+<wire x1="9.6" y1="9.6" x2="9.6" y2="-9.6" width="0.12" layer="51"/>
+<smd name="1" x="-7.3" y="0" dx="7.9118" dy="2.5103" layer="1"/>
+<smd name="2" x="7.3" y="0" dx="7.9118" dy="2.5103" layer="1"/>
+<text x="0" y="10.235" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-10.235" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="BATTERY">
+<pad name="P$1" x="0" y="0" drill="1.0668" shape="square"/>
+<pad name="P$2" x="2.54" y="0" drill="1.0668" shape="square"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="0" width="0.127" layer="21"/>
+<wire x1="-3.81" y1="1.27" x2="-1.27" y2="1.27" width="0.127" layer="21"/>
+<wire x1="3.81" y1="1.27" x2="6.35" y2="1.27" width="0.127" layer="21"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="SOIC127P600X170-9T200X280L" urn="urn:adsk.eagle:package:16488189/1" type="model">
+<description>8-SOIC, 1.27 mm pitch, 6.00 mm span, 4.90 X 3.90 X 1.70 mm body, 2.80 X 2.00 mm thermal pad
+&lt;p&gt;8-pin SOIC package with 1.27 mm pitch, 6.00 mm span with body size 4.90 X 3.90 X 1.70 mm and thermal pad size 2.80 X 2.00 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="SOIC127P600X170-9T200X280L"/>
+</packageinstances>
+</package3d>
+<package3d name="SOIC127P1032X265-20N" urn="urn:adsk.eagle:package:16488529/1" type="model">
+<description>20-SOIC, 1.27 mm pitch, 10.32 mm span, 12.80 X 7.50 X 2.65 mm body
+&lt;p&gt;20-pin SOIC package with 1.27 mm pitch, 10.32 mm span with body size 12.80 X 7.50 X 2.65 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="SOIC127P1032X265-20N"/>
+</packageinstances>
+</package3d>
+<package3d name="SOD5226X220N" urn="urn:adsk.eagle:package:16488630/1" type="model">
+<description>SOD, 5.21 mm span, 4.32 X 2.60 X 2.20 mm body
+&lt;p&gt;SOD package with 5.21 mm span with body size 4.32 X 2.60 X 2.20 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="SOD5226X220N"/>
+</packageinstances>
+</package3d>
+<package3d name="CAPAE1030X1050N" urn="urn:adsk.eagle:package:16489456/1" type="model">
+<description>ECAP (Aluminum Electrolytic Capacitor), 10.30 X 10.50 mm body
+&lt;p&gt;ECAP (Aluminum Electrolytic Capacitor) package with body size 10.30 X 10.50 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="CAPAE1030X1050N"/>
+</packageinstances>
+</package3d>
+<package3d name="SOIC127P600X175-8N" urn="urn:adsk.eagle:package:16497537/1" type="model">
+<description>8-SOIC, 1.27 mm pitch, 6.00 mm span, 4.90 X 3.90 X 1.75 mm body
+&lt;p&gt;8-pin SOIC package with 1.27 mm pitch, 6.00 mm span with body size 4.90 X 3.90 X 1.75 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="SOIC127P600X175-8N"/>
+</packageinstances>
+</package3d>
+<package3d name="RESC2012X65N" urn="urn:adsk.eagle:package:16497579/1" type="model">
+<description>Chip, 2.00 X 1.23 X 0.65 mm body
+&lt;p&gt;Chip package with body size 2.00 X 1.23 X 0.65 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="RESC2012X65N"/>
+</packageinstances>
+</package3d>
+<package3d name="DIODFN2751X2800X1540-3N" urn="urn:adsk.eagle:package:16499382/1" type="model">
+<description>DFN3, 27.51 X 28.00 X 15.40 mm body
+&lt;p&gt;DFN3 package with body size 27.51 X 28.00 X 15.40 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="DIODFN2751X2800X1540-3N"/>
+</packageinstances>
+</package3d>
+<package3d name="CAPAE1900X1700N" urn="urn:adsk.eagle:package:16499394/1" type="model">
+<description>ECAP (Aluminum Electrolytic Capacitor), 19.00 X 17.00 mm body
+&lt;p&gt;ECAP (Aluminum Electrolytic Capacitor) package with body size 19.00 X 17.00 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="CAPAE1900X1700N"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="MD-UCC27211DDA">
+<pin name="HS" x="10.16" y="0" length="middle" rot="R180"/>
+<pin name="HO" x="10.16" y="2.54" length="middle" rot="R180"/>
+<pin name="HB" x="10.16" y="5.08" length="middle" rot="R180"/>
+<pin name="VDD" x="10.16" y="7.62" length="middle" rot="R180"/>
+<pin name="LO" x="10.16" y="-2.54" length="middle" rot="R180"/>
+<pin name="VSS" x="10.16" y="-5.08" length="middle" rot="R180"/>
+<pin name="LI" x="10.16" y="-7.62" length="middle" rot="R180"/>
+<pin name="HI" x="10.16" y="-10.16" length="middle" rot="R180"/>
+<wire x1="5.08" y1="10.16" x2="5.08" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-12.7" x2="-5.08" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-12.7" x2="-5.08" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="10.16" x2="5.08" y2="10.16" width="0.254" layer="94"/>
+<text x="-5.08" y="-10.16" size="1.778" layer="94" rot="R90">MOSFETDRIVER</text>
+<text x="-5.08" y="12.7" size="1.27" layer="95">&gt;NAME</text>
+<text x="-5.08" y="-15.24" size="1.27" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="MD-HIP4081AIBZ">
+<pin name="BHB@1" x="2.54" y="22.86" length="middle" rot="R180"/>
+<pin name="BHI@2" x="2.54" y="20.32" length="middle" rot="R180"/>
+<pin name="DIS@3" x="2.54" y="17.78" length="middle" rot="R180"/>
+<pin name="VSS@4" x="2.54" y="15.24" length="middle" rot="R180"/>
+<pin name="BLI@5" x="2.54" y="12.7" length="middle" rot="R180"/>
+<pin name="ALI@6" x="2.54" y="10.16" length="middle" rot="R180"/>
+<pin name="AHI@7" x="2.54" y="7.62" length="middle" rot="R180"/>
+<pin name="HDEL@8" x="2.54" y="5.08" length="middle" rot="R180"/>
+<pin name="LDEL@9" x="2.54" y="2.54" length="middle" rot="R180"/>
+<pin name="AHB@10" x="2.54" y="0" length="middle" rot="R180"/>
+<pin name="AHO@11" x="2.54" y="-2.54" length="middle" rot="R180"/>
+<pin name="AHS@12" x="2.54" y="-5.08" length="middle" rot="R180"/>
+<pin name="ALO@13" x="2.54" y="-7.62" length="middle" rot="R180"/>
+<pin name="ALS@14" x="2.54" y="-10.16" length="middle" rot="R180"/>
+<pin name="VCC@15" x="2.54" y="-12.7" length="middle" rot="R180"/>
+<pin name="VDD@16" x="2.54" y="-15.24" length="middle" rot="R180"/>
+<pin name="BLS@17" x="2.54" y="-17.78" length="middle" rot="R180"/>
+<pin name="BLO@18" x="2.54" y="-20.32" length="middle" rot="R180"/>
+<pin name="BHS@19" x="2.54" y="-22.86" length="middle" rot="R180"/>
+<pin name="BHO@20" x="2.54" y="-25.4" length="middle" rot="R180"/>
+<wire x1="-2.54" y1="25.4" x2="-12.7" y2="25.4" width="2.54" layer="94"/>
+<wire x1="-15.24" y1="25.4" x2="-17.78" y2="25.4" width="2.54" layer="94"/>
+<wire x1="-17.78" y1="25.4" x2="-20.32" y2="25.4" width="2.54" layer="94"/>
+<wire x1="-20.32" y1="25.4" x2="-20.32" y2="-27.94" width="2.54" layer="94"/>
+<wire x1="-20.32" y1="-27.94" x2="-17.78" y2="-27.94" width="2.54" layer="94"/>
+<wire x1="-15.24" y1="-27.94" x2="-12.7" y2="-27.94" width="2.54" layer="94"/>
+<wire x1="-12.7" y1="-27.94" x2="-2.54" y2="-27.94" width="2.54" layer="94"/>
+<wire x1="-2.54" y1="-27.94" x2="-2.54" y2="25.4" width="2.54" layer="94"/>
+<wire x1="-17.78" y1="25.4" x2="-17.78" y2="-27.94" width="2.54" layer="94"/>
+<wire x1="-17.78" y1="-27.94" x2="-15.24" y2="-27.94" width="2.54" layer="94"/>
+<wire x1="-15.24" y1="-27.94" x2="-15.24" y2="25.4" width="2.54" layer="94"/>
+<wire x1="-15.24" y1="25.4" x2="-12.7" y2="25.4" width="2.54" layer="94"/>
+<text x="-20.32" y="27.94" size="1.27" layer="95">&gt;NAME</text>
+<text x="-12.7" y="27.94" size="1.27" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="D-DO-214AC">
+<wire x1="0" y1="2.54" x2="0" y2="-2.54" width="1.016" layer="94"/>
+<wire x1="0" y1="-2.54" x2="7.62" y2="0" width="1.016" layer="94"/>
+<wire x1="7.62" y1="0" x2="0" y2="2.54" width="1.016" layer="94"/>
+<wire x1="7.62" y1="2.54" x2="7.62" y2="-2.54" width="1.016" layer="94"/>
+<pin name="IN1" x="12.7" y="0" length="middle" rot="R180"/>
+<pin name="OUT2" x="-5.08" y="0" length="middle"/>
+<text x="-5.08" y="5.08" size="1.778" layer="95">&gt;NAME</text>
+<text x="5.08" y="5.08" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="C-EEEFK1H221P-220UF">
+<wire x1="2.54" y1="5.08" x2="2.54" y2="-5.08" width="0.508" layer="94"/>
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="-5.08" width="0.508" layer="94" curve="-151.927513"/>
+<pin name="1" x="-5.08" y="0" length="middle"/>
+<pin name="2" x="7.62" y="0" length="middle" rot="R180"/>
+<text x="-5.08" y="7.62" size="1.778" layer="95">&gt;NAME</text>
+<text x="-5.08" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="MF-PHN210T">
+<pin name="S1" x="5.08" y="10.16" length="middle" rot="R180"/>
+<pin name="G1" x="5.08" y="7.62" length="middle" rot="R180"/>
+<pin name="S2" x="5.08" y="5.08" length="middle" rot="R180"/>
+<pin name="G2" x="5.08" y="2.54" length="middle" rot="R180"/>
+<pin name="D2@5" x="5.08" y="0" length="middle" rot="R180"/>
+<pin name="D2@6" x="5.08" y="-2.54" length="middle" rot="R180"/>
+<pin name="D1@7" x="5.08" y="-5.08" length="middle" rot="R180"/>
+<pin name="D1@8" x="5.08" y="-7.62" length="middle" rot="R180"/>
+<wire x1="-10.16" y1="12.7" x2="-12.7" y2="12.7" width="1.016" layer="94"/>
+<wire x1="-12.7" y1="12.7" x2="-12.7" y2="-10.16" width="1.016" layer="94"/>
+<wire x1="-12.7" y1="-10.16" x2="-10.16" y2="-10.16" width="1.016" layer="94"/>
+<wire x1="-10.16" y1="-10.16" x2="0" y2="-10.16" width="1.016" layer="94"/>
+<wire x1="0" y1="-10.16" x2="0" y2="12.7" width="1.016" layer="94"/>
+<wire x1="0" y1="12.7" x2="-10.16" y2="12.7" width="1.016" layer="94"/>
+<wire x1="-10.16" y1="12.7" x2="-10.16" y2="-10.16" width="1.016" layer="94"/>
+<text x="-12.7" y="15.24" size="1.778" layer="95">&gt;NAME</text>
+<text x="-12.7" y="-12.7" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="R-RN73C2A4K99B-5K">
+<wire x1="-10.16" y1="0" x2="-7.62" y2="0" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="0" x2="-5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="2.54" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="7.62" y2="0" width="0.254" layer="94"/>
+<wire x1="7.62" y1="0" x2="10.16" y2="0" width="0.254" layer="94"/>
+<pin name="P$1" x="-15.24" y="0" length="middle"/>
+<pin name="P$2" x="15.24" y="0" length="middle" rot="R180"/>
+<text x="-7.62" y="5.08" size="1.778" layer="95">&gt;NAME</text>
+<text x="-7.62" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="S-SPEAKER">
+<wire x1="0" y1="2.54" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="0" y2="2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="5.08" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-5.08" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
+<pin name="P$1" x="-5.08" y="2.54" length="middle"/>
+<pin name="P$2" x="-5.08" y="-2.54" length="middle"/>
+<text x="-5.08" y="5.08" size="1.778" layer="95">&gt;NAME</text>
+<text x="-5.08" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="I-WURTH-33UH">
+<wire x1="-5.08" y1="0" x2="-2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="0" x2="0" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="0" y1="0" x2="2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="0" x2="5.08" y2="0" width="0.254" layer="94" curve="-180"/>
+<pin name="P$1" x="-10.16" y="0" length="middle"/>
+<pin name="P$2" x="10.16" y="0" length="middle" rot="R180"/>
+</symbol>
+<symbol name="C-EEEK1E332AM-3300UF">
+<wire x1="2.54" y1="5.08" x2="2.54" y2="-5.08" width="0.508" layer="94"/>
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="-5.08" width="0.508" layer="94" curve="-151.927513"/>
+<pin name="1" x="-5.08" y="0" length="middle"/>
+<pin name="2" x="7.62" y="0" length="middle" rot="R180"/>
+<text x="-5.08" y="7.62" size="1.778" layer="95">&gt;NAME</text>
+<text x="-5.08" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="B-BATTERY">
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="5.08" x2="0" y2="-5.08" width="0.254" layer="94"/>
+<pin name="P$1" x="5.08" y="0" length="middle" rot="R180"/>
+<pin name="P$2" x="-7.62" y="0" length="middle"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="MD-UCC27211DDA">
+<description>&lt;a href="https://www.ti.com/lit/ds/symlink/ucc27211.pdf"&gt;UCC27211DDA&lt;/a&gt;
+&lt;p&gt; &lt;a href="https://se.rs-online.com/web/p/mosfet-drivers/7741379/"&gt;RS-artikelnummer 774-1379&lt;/a&gt; &lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="MD-UCC27211DDA" x="-2.54" y="7.62"/>
+</gates>
+<devices>
+<device name="" package="SOIC127P600X170-9T200X280L">
+<connects>
+<connect gate="G$1" pin="HB" pad="2"/>
+<connect gate="G$1" pin="HI" pad="5"/>
+<connect gate="G$1" pin="HO" pad="3"/>
+<connect gate="G$1" pin="HS" pad="4"/>
+<connect gate="G$1" pin="LI" pad="6"/>
+<connect gate="G$1" pin="LO" pad="8"/>
+<connect gate="G$1" pin="VDD" pad="1"/>
+<connect gate="G$1" pin="VSS" pad="7"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16488189/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MD-HIP4081AIBZ">
+<description>&lt;a href="https://www.renesas.com/eu/en/www/doc/datasheet/hip4081a.pdf"&gt;HIP4081AIBZ&lt;/a&gt;
+&lt;p&gt;&lt;a href="https://se.rs-online.com/web/p/mosfet-drivers/2163484/"&gt; RS-artikelnummer 216-3484 &lt;/a&gt;&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="MD-HIP4081AIBZ" x="10.16" y="2.54"/>
+</gates>
+<devices>
+<device name="" package="SOIC127P1032X265-20N">
+<connects>
+<connect gate="G$1" pin="AHB@10" pad="10"/>
+<connect gate="G$1" pin="AHI@7" pad="7"/>
+<connect gate="G$1" pin="AHO@11" pad="11"/>
+<connect gate="G$1" pin="AHS@12" pad="12"/>
+<connect gate="G$1" pin="ALI@6" pad="6"/>
+<connect gate="G$1" pin="ALO@13" pad="13"/>
+<connect gate="G$1" pin="ALS@14" pad="14"/>
+<connect gate="G$1" pin="BHB@1" pad="1"/>
+<connect gate="G$1" pin="BHI@2" pad="2"/>
+<connect gate="G$1" pin="BHO@20" pad="20"/>
+<connect gate="G$1" pin="BHS@19" pad="19"/>
+<connect gate="G$1" pin="BLI@5" pad="5"/>
+<connect gate="G$1" pin="BLO@18" pad="18"/>
+<connect gate="G$1" pin="BLS@17" pad="17"/>
+<connect gate="G$1" pin="DIS@3" pad="3"/>
+<connect gate="G$1" pin="HDEL@8" pad="8"/>
+<connect gate="G$1" pin="LDEL@9" pad="9"/>
+<connect gate="G$1" pin="VCC@15" pad="15"/>
+<connect gate="G$1" pin="VDD@16" pad="16"/>
+<connect gate="G$1" pin="VSS@4" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16488529/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="D-DO-214AC">
+<description>&lt;a href="https://docs.rs-online.com/8928/0900766b812212c7.pdf"&gt;DO-214AC&lt;/a&gt;
+&lt;p&gt;&lt;a href="https://se.rs-online.com/web/p/rectifier-diodes-schottky-diodes/7811122/"&gt;RS-artikelnummer 781-1122&lt;/a&gt; &lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="D-DO-214AC" x="2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOD5226X220N">
+<connects>
+<connect gate="G$1" pin="IN1" pad="1"/>
+<connect gate="G$1" pin="OUT2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16488630/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="C-EEEFK1H221P-220UF">
+<description>&lt;a href="https://docs.rs-online.com/919b/0900766b8139e2ba.pdf"&gt;EEEFK1H221P&lt;/a&gt;
+&lt;p&gt;&lt;a href="https://se.rs-online.com/web/p/aluminium-capacitors/5370584/"&gt; RS-artikelnummer 537-0584 &lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;220uF&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="C-EEEFK1H221P-220UF" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="CAPAE1030X1050N">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16489456/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MF-PHN210T">
+<description>&lt;a href="https://www.renesas.com/eu/en/www/doc/datasheet/hip4081a.pdf"&gt;PHN210T&lt;/a&gt;
+&lt;p&gt;&lt;a href="https://se.rs-online.com/web/p/mosfets/7258376/"&gt;RS-artikelnummer 725-8376&lt;/a&gt;&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="MF-PHN210T" x="5.08" y="-2.54"/>
+</gates>
+<devices>
+<device name="" package="SOIC127P600X175-8N">
+<connects>
+<connect gate="G$1" pin="D1@7" pad="7"/>
+<connect gate="G$1" pin="D1@8" pad="8"/>
+<connect gate="G$1" pin="D2@5" pad="5"/>
+<connect gate="G$1" pin="D2@6" pad="6"/>
+<connect gate="G$1" pin="G1" pad="2"/>
+<connect gate="G$1" pin="G2" pad="4"/>
+<connect gate="G$1" pin="S1" pad="1"/>
+<connect gate="G$1" pin="S2" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16497537/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="R-RN73C2A4K99B-5K">
+<description>&lt;a href="https://docs.rs-online.com/96b9/0900766b81488572.pdf"&gt;datasheet&lt;/a&gt;
+&lt;p&gt;&lt;a href="https://se.rs-online.com/web/p/surface-mount-fixed-resistors/2153162/"&gt; RS-artikelnummer 215-3162 &lt;/a&gt;&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="R-RN73C2A4K99B-5K" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC2012X65N">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+<connect gate="G$1" pin="P$2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16497579/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="S-SPEAKER">
+<gates>
+<gate name="G$1" symbol="S-SPEAKER" x="2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="SPEAKER">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="I-WURTH-33UH">
+<description>&lt;a href="https://docs.rs-online.com/56e8/0900766b8161baff.pdf"&gt;33UH&lt;/a&gt;
+&lt;p&gt;&lt;a href="https://se.rs-online.com/web/p/leaded-inductors/1683225/"&gt; RS-artikelnummer 168-3225 &lt;/a&gt;&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="I-WURTH-33UH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="DIODFN2751X2800X1540-3N">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+<connect gate="G$1" pin="P$2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16499382/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="C-EEEK1E332AM-3300UF">
+<description>&lt;a href="https://docs.rs-online.com/a3df/0900766b80e4e801.pdf"&gt; datasheet&lt;/a&gt;
+&lt;p&gt;&lt;a href="https://se.rs-online.com/web/p/aluminium-capacitors/7083897/"&gt;RS-artikelnummer 708-3897&lt;/a&gt;&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="C-EEEK1E332AM-3300UF" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="CAPAE1900X1700N">
+<connects>
+<connect gate="G$1" pin="1" pad="2"/>
+<connect gate="G$1" pin="2" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16499394/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B-BATTERY">
+<gates>
+<gate name="G$1" symbol="B-BATTERY" x="2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="BATTERY">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$2"/>
+<connect gate="G$1" pin="P$2" pad="P$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+<compatibility>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports the association of 3D packages
+with devices in libraries, schematics, and board files. Those 3D
+packages will not be understood (or retained) with this version.
+</note>
+</compatibility>
+</eagle>
