@@ -565,6 +565,8 @@
 </devices>
 </deviceset>
 <deviceset name="R-RN73C2A4K99B-5K">
+<description>&lt;a href="https://docs.rs-online.com/96b9/0900766b81488572.pdf"&gt;datasheet&lt;/a&gt;
+&lt;p&gt;&lt;a href="https://se.rs-online.com/web/p/surface-mount-fixed-resistors/2153162/"&gt; RS-artikelnummer 215-3162 &lt;/a&gt;&lt;/p&gt;</description>
 <gates>
 <gate name="G$1" symbol="R-RN73C2A4K99B-5K" x="0" y="0"/>
 </gates>
@@ -621,6 +623,8 @@
 </devices>
 </deviceset>
 <deviceset name="C-EEEK1E332AM-3300UF">
+<description>&lt;a href="https://docs.rs-online.com/a3df/0900766b80e4e801.pdf"&gt; datasheet&lt;/a&gt;
+&lt;p&gt;&lt;a href="https://se.rs-online.com/web/p/aluminium-capacitors/7083897/"&gt;RS-artikelnummer 708-3897&lt;/a&gt;&lt;/p&gt;</description>
 <gates>
 <gate name="G$1" symbol="C-EEEK1E332AM-3300UF" x="0" y="0"/>
 </gates>
