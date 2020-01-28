@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -413,6 +413,26 @@
 <text x="0" y="4.1744" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-3.985" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
 </package>
+<package name="USB">
+<smd name="P$1" x="0" y="0" dx="1.524" dy="0.635" layer="1" rot="R90"/>
+<smd name="P$2" x="1.778" y="0" dx="1.524" dy="0.635" layer="1" rot="R90"/>
+<smd name="P$3" x="3.556" y="0" dx="1.524" dy="0.635" layer="1" rot="R90"/>
+<smd name="P$4" x="5.334" y="0" dx="1.524" dy="0.635" layer="1" rot="R90"/>
+</package>
+<package name="CAPC1632X100N" urn="urn:adsk.eagle:footprint:16733021/1">
+<description>Chip, 1.60 X 3.20 X 1.00 mm body
+&lt;p&gt;Chip package with body size 1.60 X 3.20 X 1.00 mm&lt;/p&gt;</description>
+<wire x1="0.8" y1="2.0452" x2="-0.8" y2="2.0452" width="0.12" layer="21"/>
+<wire x1="0.8" y1="-2.0452" x2="-0.8" y2="-2.0452" width="0.12" layer="21"/>
+<wire x1="0.925" y1="-1.725" x2="-0.925" y2="-1.725" width="0.12" layer="51"/>
+<wire x1="-0.925" y1="-1.725" x2="-0.925" y2="1.725" width="0.12" layer="51"/>
+<wire x1="-0.925" y1="1.725" x2="0.925" y2="1.725" width="0.12" layer="51"/>
+<wire x1="0.925" y1="1.725" x2="0.925" y2="-1.725" width="0.12" layer="51"/>
+<smd name="1" x="-0.91" y="0" dx="0.7423" dy="3.4623" layer="1"/>
+<smd name="2" x="0.91" y="0" dx="0.7423" dy="3.4623" layer="1"/>
+<text x="0" y="2.6802" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-2.6802" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="SOIC127P600X170-9T200X280L" urn="urn:adsk.eagle:package:16488189/1" type="model">
@@ -504,6 +524,13 @@
 &lt;p&gt;4-pin SOT223 package with 2.30 mm pitch, 7.00 mm span with body size 6.50 X 3.50 X 1.75 mm&lt;/p&gt;</description>
 <packageinstances>
 <packageinstance name="SOT230P700X175-4N"/>
+</packageinstances>
+</package3d>
+<package3d name="CAPC1632X100N" urn="urn:adsk.eagle:package:16732970/1" type="model">
+<description>Chip, 1.60 X 3.20 X 1.00 mm body
+&lt;p&gt;Chip package with body size 1.60 X 3.20 X 1.00 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="CAPC1632X100N"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -776,6 +803,14 @@ https://www.mouser.se/datasheet/2/986/Datasheet_-_BT800_Module-1590704.pdf</desc
 <wire x1="12.7" y1="0" x2="12.7" y2="12.7" width="0.254" layer="94"/>
 <wire x1="12.7" y1="12.7" x2="-12.7" y2="12.7" width="0.254" layer="94"/>
 <wire x1="-12.7" y1="12.7" x2="-12.7" y2="0" width="0.254" layer="94"/>
+</symbol>
+<symbol name="C-C0402C225M8PACTU-2.2UF">
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<pin name="P$1" x="-7.62" y="0" length="middle"/>
+<pin name="P$2" x="5.08" y="0" length="middle" rot="R180"/>
+<text x="-7.62" y="5.08" size="1.27" layer="95">&gt;NAME</text>
+<text x="-7.62" y="-5.08" size="1.27" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -1179,6 +1214,47 @@ https://www.mouser.se/datasheet/2/986/Datasheet_-_BT800_Module-1590704.pdf</desc
 </connects>
 <package3dinstances>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:16707660/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="USB">
+<description>&lt;a href="https://docs.rs-online.com/0507/0900766b81711f60.pdf"&gt;datasheet&lt;/a&gt;
+&lt;p&gt;&lt;a href="https://se.rs-online.com/web/p/type-a-usb-connectors/9097864/"&gt;RS-artikelnummer 909-7864&lt;/a&gt;&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="USB" x="0" y="-5.08"/>
+</gates>
+<devices>
+<device name="" package="USB">
+<connects>
+<connect gate="G$1" pin="+D@3" pad="P$3"/>
+<connect gate="G$1" pin="-D@2" pad="P$2"/>
+<connect gate="G$1" pin="GND@4" pad="P$4"/>
+<connect gate="G$1" pin="VCC@1" pad="P$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CAP-2.2UF">
+<description>&lt;a href="https://docs.rs-online.com/1d1a/0900766b815c8acd.pdf"&gt;datasheet&lt;/a&gt;
+&lt;p&gt;&lt;a href="https://se.rs-online.com/web/p/mlccs-multilayer-ceramic-capacitors/1441960/"&gt; RS-artikelnummer 144-1960  &lt;/a&gt;&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="C-C0402C225M8PACTU-2.2UF" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="CAPC1632X100N">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+<connect gate="G$1" pin="P$2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16732970/1"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>

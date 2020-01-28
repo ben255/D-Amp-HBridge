@@ -353,6 +353,12 @@
 <text x="0" y="4.1744" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-3.985" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
 </package>
+<package name="USB">
+<smd name="P$1" x="0" y="0" dx="1.524" dy="0.635" layer="1" rot="R90"/>
+<smd name="P$2" x="1.778" y="0" dx="1.524" dy="0.635" layer="1" rot="R90"/>
+<smd name="P$3" x="3.556" y="0" dx="1.524" dy="0.635" layer="1" rot="R90"/>
+<smd name="P$4" x="5.334" y="0" dx="1.524" dy="0.635" layer="1" rot="R90"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="SOIC127P1032X265-20N" urn="urn:adsk.eagle:package:16488529/1" type="model">
@@ -653,6 +659,16 @@ https://www.mouser.se/datasheet/2/986/Datasheet_-_BT800_Module-1590704.pdf</desc
 <text x="-15.24" y="10.16" size="1.27" layer="95">&gt;NAME</text>
 <text x="0" y="10.16" size="1.27" layer="96">&gt;VALUE</text>
 </symbol>
+<symbol name="USB">
+<pin name="-D@2" x="-2.54" y="-5.08" length="middle" rot="R90"/>
+<pin name="VCC@1" x="-7.62" y="-5.08" length="middle" rot="R90"/>
+<pin name="+D@3" x="2.54" y="-5.08" length="middle" rot="R90"/>
+<pin name="GND@4" x="7.62" y="-5.08" length="middle" rot="R90"/>
+<wire x1="-12.7" y1="0" x2="12.7" y2="0" width="0.254" layer="94"/>
+<wire x1="12.7" y1="0" x2="12.7" y2="12.7" width="0.254" layer="94"/>
+<wire x1="12.7" y1="12.7" x2="-12.7" y2="12.7" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="12.7" x2="-12.7" y2="0" width="0.254" layer="94"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="MD-HIP4081AIBZ">
@@ -741,6 +757,8 @@ https://www.mouser.se/datasheet/2/986/Datasheet_-_BT800_Module-1590704.pdf</desc
 </devices>
 </deviceset>
 <deviceset name="R-RN73C2A4K99B-5K">
+<description>&lt;a href="https://docs.rs-online.com/96b9/0900766b81488572.pdf"&gt;datasheet&lt;/a&gt;
+&lt;p&gt;&lt;a href="https://se.rs-online.com/web/p/surface-mount-fixed-resistors/2153162/"&gt; RS-artikelnummer 215-3162 &lt;/a&gt;&lt;/p&gt;</description>
 <gates>
 <gate name="G$1" symbol="R-RN73C2A4K99B-5K" x="0" y="0"/>
 </gates>
@@ -989,6 +1007,26 @@ https://www.mouser.se/datasheet/2/986/Datasheet_-_BT800_Module-1590704.pdf</desc
 </device>
 </devices>
 </deviceset>
+<deviceset name="USB">
+<description>&lt;a href="https://docs.rs-online.com/0507/0900766b81711f60.pdf"&gt;datasheet&lt;/a&gt;
+&lt;p&gt;&lt;a href="https://se.rs-online.com/web/p/type-a-usb-connectors/9097864/"&gt;RS-artikelnummer 909-7864&lt;/a&gt;&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="USB" x="0" y="-5.08"/>
+</gates>
+<devices>
+<device name="" package="USB">
+<connects>
+<connect gate="G$1" pin="+D@3" pad="P$3"/>
+<connect gate="G$1" pin="-D@2" pad="P$2"/>
+<connect gate="G$1" pin="GND@4" pad="P$4"/>
+<connect gate="G$1" pin="VCC@1" pad="P$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 <library name="supply1" urn="urn:adsk.eagle:library:371">
@@ -1166,6 +1204,10 @@ https://www.mouser.se/datasheet/2/986/Datasheet_-_BT800_Module-1590704.pdf</desc
 <part name="+3V1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="FRAME_B_L" device=""/>
 <part name="FRAME2" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="FRAME_B_L" device=""/>
+<part name="U$16" library="amplib" deviceset="R-RN73C2A4K99B-5K" device="" package3d_urn="urn:adsk.eagle:package:16497579/1"/>
+<part name="+3V2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="+3V3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="U$23" library="amplib" deviceset="USB" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -1620,9 +1662,9 @@ https://www.mouser.se/datasheet/2/986/Datasheet_-_BT800_Module-1590704.pdf</desc
 <plain>
 </plain>
 <instances>
-<instance part="U$14" gate="G$1" x="-20.32" y="53.34" smashed="yes">
-<attribute name="NAME" x="-27.94" y="88.9" size="1.27" layer="95"/>
-<attribute name="VALUE" x="-10.16" y="88.9" size="1.27" layer="96"/>
+<instance part="U$14" gate="G$1" x="-53.34" y="58.42" smashed="yes">
+<attribute name="NAME" x="-60.96" y="93.98" size="1.27" layer="95"/>
+<attribute name="VALUE" x="-43.18" y="93.98" size="1.27" layer="96"/>
 </instance>
 <instance part="U$13" gate="G$1" x="119.38" y="48.26" smashed="yes"/>
 <instance part="U$15" gate="G$1" x="-2.54" y="-35.56" smashed="yes" rot="R180">
@@ -1638,22 +1680,74 @@ https://www.mouser.se/datasheet/2/986/Datasheet_-_BT800_Module-1590704.pdf</desc
 <attribute name="SHEET" x="279.4" y="-105.41" size="2.54" layer="94"/>
 <attribute name="DRAWING_NAME" x="210.82" y="-87.63" size="2.54" layer="94"/>
 </instance>
+<instance part="U$16" gate="G$1" x="73.66" y="55.88" smashed="yes" rot="R180">
+<attribute name="NAME" x="81.28" y="50.8" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="81.28" y="60.96" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="+3V2" gate="G$1" x="93.98" y="53.34" smashed="yes" rot="R90">
+<attribute name="VALUE" x="99.06" y="50.8" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="+3V3" gate="G$1" x="116.84" y="93.98" smashed="yes">
+<attribute name="VALUE" x="114.3" y="88.9" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="U$23" gate="G$1" x="76.2" y="-22.86" smashed="yes" rot="R180"/>
 </instances>
 <busses>
 </busses>
 <nets>
-<net name="VDD" class="0">
-<segment>
-<pinref part="U$15" gate="G$1" pin="IN@1"/>
-<wire x1="7.62" y1="-25.4" x2="7.62" y2="-22.86" width="0.1524" layer="91"/>
-<label x="7.62" y="-22.86" size="1.778" layer="95" rot="R90" xref="yes"/>
-</segment>
-</net>
 <net name="GND" class="0">
 <segment>
 <pinref part="U$15" gate="G$1" pin="GND@24"/>
-<wire x1="-2.54" y1="-25.4" x2="-2.54" y2="-22.86" width="0.1524" layer="91"/>
-<label x="-2.54" y="-22.86" size="1.778" layer="95" rot="R90" xref="yes"/>
+<wire x1="-2.54" y1="-25.4" x2="-2.54" y2="-20.32" width="0.1524" layer="91"/>
+<label x="-2.54" y="-20.32" size="1.778" layer="95" rot="R90" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$16" gate="G$1" pin="P$2"/>
+<wire x1="58.42" y1="55.88" x2="55.88" y2="55.88" width="0.1524" layer="91"/>
+<pinref part="U$13" gate="G$1" pin="GND@3"/>
+<wire x1="99.06" y1="50.8" x2="58.42" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="50.8" x2="58.42" y2="55.88" width="0.1524" layer="91"/>
+<junction x="58.42" y="55.88"/>
+<pinref part="U$13" gate="G$1" pin="GND@6"/>
+<wire x1="99.06" y1="43.18" x2="58.42" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="43.18" x2="58.42" y2="50.8" width="0.1524" layer="91"/>
+<junction x="58.42" y="50.8"/>
+<label x="55.88" y="55.88" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$13" gate="G$1" pin="GND@18"/>
+<wire x1="144.78" y1="48.26" x2="147.32" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="48.26" x2="147.32" y2="40.64" width="0.1524" layer="91"/>
+<pinref part="U$13" gate="G$1" pin="GND@15"/>
+<wire x1="147.32" y1="40.64" x2="144.78" y2="40.64" width="0.1524" layer="91"/>
+<pinref part="U$13" gate="G$1" pin="GND@16"/>
+<wire x1="144.78" y1="43.18" x2="144.78" y2="40.64" width="0.1524" layer="91"/>
+<junction x="144.78" y="40.64"/>
+<pinref part="U$13" gate="G$1" pin="GND@11"/>
+<pinref part="U$13" gate="G$1" pin="GND@14"/>
+<wire x1="121.92" y1="10.16" x2="124.46" y2="10.16" width="0.1524" layer="91"/>
+<pinref part="U$13" gate="G$1" pin="GND@12"/>
+<wire x1="124.46" y1="10.16" x2="127" y2="10.16" width="0.1524" layer="91"/>
+<junction x="124.46" y="10.16"/>
+<pinref part="U$13" gate="G$1" pin="GND@13"/>
+<wire x1="127" y1="10.16" x2="129.54" y2="10.16" width="0.1524" layer="91"/>
+<junction x="127" y="10.16"/>
+<wire x1="129.54" y1="10.16" x2="129.54" y2="2.54" width="0.1524" layer="91"/>
+<junction x="129.54" y="10.16"/>
+<wire x1="147.32" y1="40.64" x2="147.32" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="10.16" x2="129.54" y2="10.16" width="0.1524" layer="91"/>
+<junction x="147.32" y="40.64"/>
+<label x="129.54" y="2.54" size="1.778" layer="95" rot="R270" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$13" gate="G$1" pin="GND@24"/>
+<wire x1="124.46" y1="86.36" x2="124.46" y2="93.98" width="0.1524" layer="91"/>
+<label x="124.46" y="93.98" size="1.778" layer="95" rot="R90" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$23" gate="G$1" pin="GND@4"/>
+<wire x1="68.58" y1="-17.78" x2="68.58" y2="17.78" width="0.1524" layer="91"/>
+<label x="68.58" y="17.78" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
@@ -1661,6 +1755,55 @@ https://www.mouser.se/datasheet/2/986/Datasheet_-_BT800_Module-1590704.pdf</desc
 <pinref part="U$15" gate="G$1" pin="OUT@3"/>
 <wire x1="-12.7" y1="-25.4" x2="-12.7" y2="-22.86" width="0.1524" layer="91"/>
 <pinref part="+3V1" gate="G$1" pin="+3V3"/>
+<wire x1="-12.7" y1="-22.86" x2="-12.7" y2="-20.32" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="+3V2" gate="G$1" pin="+3V3"/>
+<pinref part="U$13" gate="G$1" pin="VDD_HOST@2"/>
+<wire x1="96.52" y1="53.34" x2="99.06" y2="53.34" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U$13" gate="G$1" pin="VDD_PADS"/>
+<pinref part="+3V3" gate="G$1" pin="+3V3"/>
+<wire x1="116.84" y1="86.36" x2="116.84" y2="91.44" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="VDD" class="0">
+<segment>
+<pinref part="U$15" gate="G$1" pin="IN@1"/>
+<wire x1="7.62" y1="-25.4" x2="7.62" y2="-22.86" width="0.1524" layer="91"/>
+<label x="7.62" y="-22.86" size="1.778" layer="95" rot="R90" xref="yes"/>
+</segment>
+</net>
+<net name="N$2" class="0">
+<segment>
+<pinref part="U$16" gate="G$1" pin="P$1"/>
+<pinref part="U$13" gate="G$1" pin="SPI_PCM"/>
+<wire x1="88.9" y1="55.88" x2="99.06" y2="55.88" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$4" class="0">
+<segment>
+<pinref part="U$13" gate="G$1" pin="USB+"/>
+<wire x1="99.06" y1="48.26" x2="73.66" y2="48.26" width="0.1524" layer="91"/>
+<pinref part="U$23" gate="G$1" pin="+D@3"/>
+<wire x1="73.66" y1="48.26" x2="73.66" y2="-17.78" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$10" class="0">
+<segment>
+<pinref part="U$13" gate="G$1" pin="USB-"/>
+<wire x1="99.06" y1="45.72" x2="78.74" y2="45.72" width="0.1524" layer="91"/>
+<pinref part="U$23" gate="G$1" pin="-D@2"/>
+<wire x1="78.74" y1="45.72" x2="78.74" y2="-17.78" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$13" class="0">
+<segment>
+<pinref part="U$13" gate="G$1" pin="VREG_IN_USB"/>
+<wire x1="99.06" y1="40.64" x2="83.82" y2="40.64" width="0.1524" layer="91"/>
+<pinref part="U$23" gate="G$1" pin="VCC@1"/>
+<wire x1="83.82" y1="40.64" x2="83.82" y2="-17.78" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
