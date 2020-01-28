@@ -623,6 +623,38 @@
  Mouser No: 239-BT800 
 
 https://www.mouser.se/datasheet/2/986/Datasheet_-_BT800_Module-1590704.pdf</description>
+<pin name="SPI_PCM" x="-20.32" y="7.62" length="middle"/>
+<pin name="VDD_HOST@2" x="-20.32" y="5.08" length="middle"/>
+<pin name="GND@3" x="-20.32" y="2.54" length="middle"/>
+<pin name="USB+" x="-20.32" y="0" length="middle"/>
+<pin name="USB-" x="-20.32" y="-2.54" length="middle"/>
+<pin name="GND@6" x="-20.32" y="-5.08" length="middle"/>
+<pin name="VREG_IN_USB" x="-20.32" y="-7.62" length="middle"/>
+<pin name="VREG_EN_REST" x="-5.08" y="-35.56" length="middle" rot="R90"/>
+<pin name="VREG_IN_HV" x="-2.54" y="-35.56" length="middle" rot="R90"/>
+<pin name="VREG_OUT_HV" x="0" y="-35.56" length="middle" rot="R90"/>
+<pin name="GND@11" x="2.54" y="-35.56" length="middle" rot="R90"/>
+<pin name="GND@12" x="5.08" y="-35.56" length="middle" rot="R90"/>
+<pin name="GND@13" x="7.62" y="-35.56" length="middle" rot="R90"/>
+<pin name="GND@14" x="10.16" y="-35.56" length="middle" rot="R90"/>
+<pin name="GND@15" x="25.4" y="-7.62" length="middle" rot="R180"/>
+<pin name="GND@16" x="25.4" y="-5.08" length="middle" rot="R180"/>
+<pin name="NC" x="25.4" y="-2.54" length="middle" rot="R180"/>
+<pin name="GND@18" x="25.4" y="0" length="middle" rot="R180"/>
+<pin name="PCM_SYNC" x="25.4" y="2.54" length="middle" rot="R180"/>
+<pin name="PCM_CLK" x="25.4" y="5.08" length="middle" rot="R180"/>
+<pin name="PCM_IN" x="25.4" y="7.62" length="middle" rot="R180"/>
+<pin name="PCM_OUT" x="10.16" y="38.1" length="middle" rot="R270"/>
+<pin name="PIO0" x="7.62" y="38.1" length="middle" rot="R270"/>
+<pin name="GND@24" x="5.08" y="38.1" length="middle" rot="R270"/>
+<pin name="PIO1" x="2.54" y="38.1" length="middle" rot="R270"/>
+<pin name="PI02" x="0" y="38.1" length="middle" rot="R270"/>
+<pin name="VDD_PADS" x="-2.54" y="38.1" length="middle" rot="R270"/>
+<pin name="PIO5" x="-5.08" y="38.1" length="middle" rot="R270"/>
+<wire x1="-15.24" y1="33.02" x2="-15.24" y2="-33.02" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="-33.02" x2="20.32" y2="-33.02" width="0.254" layer="94"/>
+<wire x1="20.32" y1="-33.02" x2="20.32" y2="33.02" width="0.254" layer="94"/>
+<wire x1="20.32" y1="33.02" x2="-15.24" y2="33.02" width="0.254" layer="94"/>
 </symbol>
 <symbol name="C-EEEHB1H1R0R-1UF">
 <wire x1="2.54" y1="5.08" x2="2.54" y2="-5.08" width="0.508" layer="94"/>
@@ -693,6 +725,8 @@ https://www.mouser.se/datasheet/2/986/Datasheet_-_BT800_Module-1590704.pdf</desc
 <wire x1="40.64" y1="25.4" x2="40.64" y2="-22.86" width="0.254" layer="94"/>
 <wire x1="40.64" y1="-22.86" x2="-7.62" y2="-22.86" width="0.254" layer="94"/>
 <wire x1="-7.62" y1="-22.86" x2="-7.62" y2="25.4" width="0.254" layer="94"/>
+<text x="-7.62" y="35.56" size="1.27" layer="95">&gt;NAME</text>
+<text x="10.16" y="35.56" size="1.27" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -966,10 +1000,115 @@ https://www.mouser.se/datasheet/2/986/Datasheet_-_BT800_Module-1590704.pdf</desc
 </devices>
 </deviceset>
 <deviceset name="MCU">
+<description>&lt;a href="https://www.mouser.se/datasheet/2/389/stm32f031c4-956179.pdf"&gt;datasheet&lt;/a&gt;
+&lt;p&gt;&lt;a href="https://www.mouser.se/ProductDetail/STMicroelectronics/STM32F031C4T6?qs=sGAEpiMZZMuoKKEcg8mMKJe7FkJ93gBlEVQCkIXRNi2EOhU3M8GXsA%3D%3D"&gt;Mouser No:
+511-STM32F031C4T6&lt;/a&gt; &lt;/p&gt;</description>
 <gates>
+<gate name="G$1" symbol="STM32F031C4T6" x="-7.62" y="0"/>
 </gates>
 <devices>
-<device name="">
+<device name="" package="QFP50P900X900X160-48N">
+<connects>
+<connect gate="G$1" pin="BOOT0" pad="44"/>
+<connect gate="G$1" pin="NRST" pad="7"/>
+<connect gate="G$1" pin="PA0" pad="10"/>
+<connect gate="G$1" pin="PA1" pad="11"/>
+<connect gate="G$1" pin="PA10" pad="31"/>
+<connect gate="G$1" pin="PA11" pad="32"/>
+<connect gate="G$1" pin="PA12" pad="33"/>
+<connect gate="G$1" pin="PA13" pad="34"/>
+<connect gate="G$1" pin="PA14" pad="37"/>
+<connect gate="G$1" pin="PA15" pad="38"/>
+<connect gate="G$1" pin="PA2" pad="12"/>
+<connect gate="G$1" pin="PA3" pad="13"/>
+<connect gate="G$1" pin="PA4" pad="14"/>
+<connect gate="G$1" pin="PA5" pad="15"/>
+<connect gate="G$1" pin="PA6" pad="16"/>
+<connect gate="G$1" pin="PA7" pad="17"/>
+<connect gate="G$1" pin="PA8" pad="29"/>
+<connect gate="G$1" pin="PA9" pad="30"/>
+<connect gate="G$1" pin="PB0" pad="18"/>
+<connect gate="G$1" pin="PB1" pad="19"/>
+<connect gate="G$1" pin="PB10" pad="21"/>
+<connect gate="G$1" pin="PB11" pad="22"/>
+<connect gate="G$1" pin="PB12" pad="25"/>
+<connect gate="G$1" pin="PB13" pad="26"/>
+<connect gate="G$1" pin="PB14" pad="27"/>
+<connect gate="G$1" pin="PB15" pad="28"/>
+<connect gate="G$1" pin="PB2" pad="20"/>
+<connect gate="G$1" pin="PB3" pad="39"/>
+<connect gate="G$1" pin="PB4" pad="40"/>
+<connect gate="G$1" pin="PB5" pad="41"/>
+<connect gate="G$1" pin="PB6" pad="42"/>
+<connect gate="G$1" pin="PB7" pad="43"/>
+<connect gate="G$1" pin="PB8" pad="45"/>
+<connect gate="G$1" pin="PB9" pad="46"/>
+<connect gate="G$1" pin="PC13" pad="2"/>
+<connect gate="G$1" pin="PC14" pad="3"/>
+<connect gate="G$1" pin="PC15" pad="4"/>
+<connect gate="G$1" pin="PF0-OSC-IN" pad="5"/>
+<connect gate="G$1" pin="PF1-OSC-OUT" pad="6"/>
+<connect gate="G$1" pin="PF6" pad="35"/>
+<connect gate="G$1" pin="PF7" pad="36"/>
+<connect gate="G$1" pin="VBAT" pad="1"/>
+<connect gate="G$1" pin="VDD@24" pad="24"/>
+<connect gate="G$1" pin="VDD@48" pad="48"/>
+<connect gate="G$1" pin="VDDA" pad="9"/>
+<connect gate="G$1" pin="VSS@23" pad="23"/>
+<connect gate="G$1" pin="VSS@47" pad="47"/>
+<connect gate="G$1" pin="VSSA" pad="8"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16672024/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BLUETOOTH">
+<description>&lt;a href="https://www.mouser.se/datasheet/2/986/Datasheet_-_BT800_Module-1590704.pdf"&gt;datasheet&lt;/a&gt;
+&lt;p&gt;&lt;a href="https://www.mouser.se/ProductDetail/Laird-Connectivity/BT800?qs=sGAEpiMZZMsGelYiB%252BjhZkkHhaJQb1s%252BFpdjxxQrm%2FVzv2ACM1FW4w=="&gt; Mouser No:
+239-BT800 &lt;/a&gt;&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="BLUETOOTH" x="-2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="QFN80P850X1285X175-42N">
+<connects>
+<connect gate="G$1" pin="GND@11" pad="11"/>
+<connect gate="G$1" pin="GND@12" pad="12"/>
+<connect gate="G$1" pin="GND@13" pad="13"/>
+<connect gate="G$1" pin="GND@14" pad="14"/>
+<connect gate="G$1" pin="GND@15" pad="15"/>
+<connect gate="G$1" pin="GND@16" pad="16"/>
+<connect gate="G$1" pin="GND@18" pad="18"/>
+<connect gate="G$1" pin="GND@24" pad="24"/>
+<connect gate="G$1" pin="GND@3" pad="3"/>
+<connect gate="G$1" pin="GND@6" pad="6"/>
+<connect gate="G$1" pin="NC" pad="17"/>
+<connect gate="G$1" pin="PCM_CLK" pad="20"/>
+<connect gate="G$1" pin="PCM_IN" pad="21"/>
+<connect gate="G$1" pin="PCM_OUT" pad="22"/>
+<connect gate="G$1" pin="PCM_SYNC" pad="19"/>
+<connect gate="G$1" pin="PI02" pad="26"/>
+<connect gate="G$1" pin="PIO0" pad="23"/>
+<connect gate="G$1" pin="PIO1" pad="25"/>
+<connect gate="G$1" pin="PIO5" pad="28"/>
+<connect gate="G$1" pin="SPI_PCM" pad="1"/>
+<connect gate="G$1" pin="USB+" pad="4"/>
+<connect gate="G$1" pin="USB-" pad="5"/>
+<connect gate="G$1" pin="VDD_HOST@2" pad="2"/>
+<connect gate="G$1" pin="VDD_PADS" pad="27"/>
+<connect gate="G$1" pin="VREG_EN_REST" pad="8"/>
+<connect gate="G$1" pin="VREG_IN_HV" pad="9"/>
+<connect gate="G$1" pin="VREG_IN_USB" pad="7"/>
+<connect gate="G$1" pin="VREG_OUT_HV" pad="10"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16526912/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
