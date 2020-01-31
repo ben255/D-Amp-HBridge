@@ -359,6 +359,35 @@
 <smd name="P$3" x="3.556" y="0" dx="1.524" dy="0.635" layer="1" rot="R90"/>
 <smd name="P$4" x="5.334" y="0" dx="1.524" dy="0.635" layer="1" rot="R90"/>
 </package>
+<package name="CAPC1632X100N" urn="urn:adsk.eagle:footprint:16733021/1">
+<description>Chip, 1.60 X 3.20 X 1.00 mm body
+&lt;p&gt;Chip package with body size 1.60 X 3.20 X 1.00 mm&lt;/p&gt;</description>
+<wire x1="0.8" y1="2.0452" x2="-0.8" y2="2.0452" width="0.12" layer="21"/>
+<wire x1="0.8" y1="-2.0452" x2="-0.8" y2="-2.0452" width="0.12" layer="21"/>
+<wire x1="0.925" y1="-1.725" x2="-0.925" y2="-1.725" width="0.12" layer="51"/>
+<wire x1="-0.925" y1="-1.725" x2="-0.925" y2="1.725" width="0.12" layer="51"/>
+<wire x1="-0.925" y1="1.725" x2="0.925" y2="1.725" width="0.12" layer="51"/>
+<wire x1="0.925" y1="1.725" x2="0.925" y2="-1.725" width="0.12" layer="51"/>
+<smd name="1" x="-0.91" y="0" dx="0.7423" dy="3.4623" layer="1"/>
+<smd name="2" x="0.91" y="0" dx="0.7423" dy="3.4623" layer="1"/>
+<text x="0" y="2.6802" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-2.6802" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="DIOM5126X229N" urn="urn:adsk.eagle:footprint:16844090/1">
+<description>Molded Body, 5.11 X 2.67 X 2.29 mm body
+&lt;p&gt;Molded Body package with body size 5.11 X 2.67 X 2.29 mm&lt;/p&gt;</description>
+<wire x1="2.64" y1="1.395" x2="-3.4627" y2="1.395" width="0.12" layer="21"/>
+<wire x1="-3.4627" y1="1.395" x2="-3.4627" y2="-1.395" width="0.12" layer="21"/>
+<wire x1="-3.4627" y1="-1.395" x2="2.64" y2="-1.395" width="0.12" layer="21"/>
+<wire x1="2.64" y1="-1.395" x2="-2.64" y2="-1.395" width="0.12" layer="51"/>
+<wire x1="-2.64" y1="-1.395" x2="-2.64" y2="1.395" width="0.12" layer="51"/>
+<wire x1="-2.64" y1="1.395" x2="2.64" y2="1.395" width="0.12" layer="51"/>
+<wire x1="2.64" y1="1.395" x2="2.64" y2="-1.395" width="0.12" layer="51"/>
+<smd name="1" x="-2.0613" y="0" dx="2.1749" dy="1.5653" layer="1"/>
+<smd name="2" x="2.0613" y="0" dx="2.1749" dy="1.5653" layer="1"/>
+<text x="0" y="2.03" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-2.03" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="SOIC127P1032X265-20N" urn="urn:adsk.eagle:package:16488529/1" type="model">
@@ -429,6 +458,20 @@
 &lt;p&gt;4-pin SOT223 package with 2.30 mm pitch, 7.00 mm span with body size 6.50 X 3.50 X 1.75 mm&lt;/p&gt;</description>
 <packageinstances>
 <packageinstance name="SOT230P700X175-4N"/>
+</packageinstances>
+</package3d>
+<package3d name="CAPC1632X100N" urn="urn:adsk.eagle:package:16732970/1" type="model">
+<description>Chip, 1.60 X 3.20 X 1.00 mm body
+&lt;p&gt;Chip package with body size 1.60 X 3.20 X 1.00 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="CAPC1632X100N"/>
+</packageinstances>
+</package3d>
+<package3d name="DIOM5126X229N" urn="urn:adsk.eagle:package:16844072/1" type="model">
+<description>Molded Body, 5.11 X 2.67 X 2.29 mm body
+&lt;p&gt;Molded Body package with body size 5.11 X 2.67 X 2.29 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="DIOM5126X229N"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -668,6 +711,31 @@ https://www.mouser.se/datasheet/2/986/Datasheet_-_BT800_Module-1590704.pdf</desc
 <wire x1="12.7" y1="0" x2="12.7" y2="12.7" width="0.254" layer="94"/>
 <wire x1="12.7" y1="12.7" x2="-12.7" y2="12.7" width="0.254" layer="94"/>
 <wire x1="-12.7" y1="12.7" x2="-12.7" y2="0" width="0.254" layer="94"/>
+</symbol>
+<symbol name="C-C0402C225M8PACTU-2.2UF">
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<pin name="P$1" x="-7.62" y="0" length="middle"/>
+<pin name="P$2" x="5.08" y="0" length="middle" rot="R180"/>
+<text x="-7.62" y="5.08" size="1.27" layer="95">&gt;NAME</text>
+<text x="-7.62" y="-5.08" size="1.27" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="DBD-SMAJ5-5V-400W">
+<wire x1="0" y1="2.54" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="-2.54" y2="5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="-5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="2.54" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-2.54" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-2.54" x2="0" y2="0" width="0.254" layer="94"/>
+<pin name="P$1" x="-10.16" y="0" length="middle"/>
+<pin name="P$2" x="10.16" y="0" length="middle" rot="R180"/>
+<wire x1="2.54" y1="-5.08" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<text x="-5.08" y="7.62" size="1.27" layer="95">&gt;NAME</text>
+<text x="-5.08" y="-7.62" size="1.27" layer="95">5V
+400W</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -1027,6 +1095,48 @@ https://www.mouser.se/datasheet/2/986/Datasheet_-_BT800_Module-1590704.pdf</desc
 </device>
 </devices>
 </deviceset>
+<deviceset name="CAP-2.2UF">
+<description>&lt;a href="https://docs.rs-online.com/1d1a/0900766b815c8acd.pdf"&gt;datasheet&lt;/a&gt;
+&lt;p&gt;&lt;a href="https://se.rs-online.com/web/p/mlccs-multilayer-ceramic-capacitors/1441960/"&gt; RS-artikelnummer 144-1960  &lt;/a&gt;&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="C-C0402C225M8PACTU-2.2UF" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="CAPC1632X100N">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+<connect gate="G$1" pin="P$2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16732970/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BI-DIR-5V">
+<description>&lt;a href="https://docs.rs-online.com/73d6/0900766b810f4edb.pdf"&gt;datasheet&lt;/a&gt;
+&lt;p&gt;&lt;a href="https://se.rs-online.com/web/p/tvs-diodes/7645568/"&gt; RS-artikelnummer 764-5568 &lt;/a&gt;&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="DBD-SMAJ5-5V-400W" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="DIOM5126X229N">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+<connect gate="G$1" pin="P$2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16844072/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 <library name="supply1" urn="urn:adsk.eagle:library:371">
@@ -1208,6 +1318,9 @@ https://www.mouser.se/datasheet/2/986/Datasheet_-_BT800_Module-1590704.pdf</desc
 <part name="+3V2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="+3V3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="U$23" library="amplib" deviceset="USB" device=""/>
+<part name="U$24" library="amplib" deviceset="CAP-2.2UF" device="" package3d_urn="urn:adsk.eagle:package:16732970/1"/>
+<part name="U$25" library="amplib" deviceset="BI-DIR-5V" device="" package3d_urn="urn:adsk.eagle:package:16844072/1"/>
+<part name="U$26" library="amplib" deviceset="BI-DIR-5V" device="" package3d_urn="urn:adsk.eagle:package:16844072/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -1691,6 +1804,16 @@ https://www.mouser.se/datasheet/2/986/Datasheet_-_BT800_Module-1590704.pdf</desc
 <attribute name="VALUE" x="114.3" y="88.9" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="U$23" gate="G$1" x="76.2" y="-22.86" smashed="yes" rot="R180"/>
+<instance part="U$24" gate="G$1" x="99.06" y="-15.24" smashed="yes">
+<attribute name="NAME" x="91.44" y="-10.16" size="1.27" layer="95"/>
+<attribute name="VALUE" x="91.44" y="-20.32" size="1.27" layer="96"/>
+</instance>
+<instance part="U$25" gate="G$1" x="45.72" y="2.54" smashed="yes">
+<attribute name="NAME" x="40.64" y="10.16" size="1.27" layer="95"/>
+</instance>
+<instance part="U$26" gate="G$1" x="45.72" y="-10.16" smashed="yes">
+<attribute name="NAME" x="40.64" y="-2.54" size="1.27" layer="95"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -1749,6 +1872,22 @@ https://www.mouser.se/datasheet/2/986/Datasheet_-_BT800_Module-1590704.pdf</desc
 <wire x1="68.58" y1="-17.78" x2="68.58" y2="17.78" width="0.1524" layer="91"/>
 <label x="68.58" y="17.78" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
+<segment>
+<pinref part="U$24" gate="G$1" pin="P$2"/>
+<wire x1="104.14" y1="-15.24" x2="106.68" y2="-15.24" width="0.1524" layer="91"/>
+<label x="106.68" y="-15.24" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$25" gate="G$1" pin="P$1"/>
+<wire x1="35.56" y1="2.54" x2="33.02" y2="2.54" width="0.1524" layer="91"/>
+<pinref part="U$26" gate="G$1" pin="P$1"/>
+<wire x1="35.56" y1="-10.16" x2="33.02" y2="-10.16" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="-10.16" x2="33.02" y2="-2.54" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="-2.54" x2="33.02" y2="2.54" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="-2.54" x2="30.48" y2="-2.54" width="0.1524" layer="91"/>
+<junction x="33.02" y="-2.54"/>
+<label x="30.48" y="-2.54" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="+3V3" class="0">
 <segment>
@@ -1787,7 +1926,11 @@ https://www.mouser.se/datasheet/2/986/Datasheet_-_BT800_Module-1590704.pdf</desc
 <pinref part="U$13" gate="G$1" pin="USB+"/>
 <wire x1="99.06" y1="48.26" x2="73.66" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="U$23" gate="G$1" pin="+D@3"/>
-<wire x1="73.66" y1="48.26" x2="73.66" y2="-17.78" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="48.26" x2="73.66" y2="2.54" width="0.1524" layer="91"/>
+<pinref part="U$25" gate="G$1" pin="P$2"/>
+<wire x1="73.66" y1="2.54" x2="73.66" y2="-17.78" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="2.54" x2="55.88" y2="2.54" width="0.1524" layer="91"/>
+<junction x="73.66" y="2.54"/>
 </segment>
 </net>
 <net name="N$10" class="0">
@@ -1795,7 +1938,11 @@ https://www.mouser.se/datasheet/2/986/Datasheet_-_BT800_Module-1590704.pdf</desc
 <pinref part="U$13" gate="G$1" pin="USB-"/>
 <wire x1="99.06" y1="45.72" x2="78.74" y2="45.72" width="0.1524" layer="91"/>
 <pinref part="U$23" gate="G$1" pin="-D@2"/>
-<wire x1="78.74" y1="45.72" x2="78.74" y2="-17.78" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="45.72" x2="78.74" y2="-10.16" width="0.1524" layer="91"/>
+<pinref part="U$26" gate="G$1" pin="P$2"/>
+<wire x1="78.74" y1="-10.16" x2="78.74" y2="-17.78" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="-10.16" x2="78.74" y2="-10.16" width="0.1524" layer="91"/>
+<junction x="78.74" y="-10.16"/>
 </segment>
 </net>
 <net name="N$13" class="0">
@@ -1803,7 +1950,11 @@ https://www.mouser.se/datasheet/2/986/Datasheet_-_BT800_Module-1590704.pdf</desc
 <pinref part="U$13" gate="G$1" pin="VREG_IN_USB"/>
 <wire x1="99.06" y1="40.64" x2="83.82" y2="40.64" width="0.1524" layer="91"/>
 <pinref part="U$23" gate="G$1" pin="VCC@1"/>
-<wire x1="83.82" y1="40.64" x2="83.82" y2="-17.78" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="40.64" x2="83.82" y2="-15.24" width="0.1524" layer="91"/>
+<pinref part="U$24" gate="G$1" pin="P$1"/>
+<wire x1="83.82" y1="-15.24" x2="83.82" y2="-17.78" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="-15.24" x2="83.82" y2="-15.24" width="0.1524" layer="91"/>
+<junction x="83.82" y="-15.24"/>
 </segment>
 </net>
 </nets>
@@ -1812,6 +1963,10 @@ https://www.mouser.se/datasheet/2/986/Datasheet_-_BT800_Module-1590704.pdf</desc
 </schematic>
 </drawing>
 <compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
 <note version="8.2" severity="warning">
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)
