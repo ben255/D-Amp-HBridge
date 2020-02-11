@@ -1709,6 +1709,7 @@ https://www.mouser.se/datasheet/2/986/Datasheet_-_BT800_Module-1590704.pdf</desc
 <part name="+3V5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="+3V6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="U$1" library="amplib" deviceset="B-BATTERY" device="BATTERYCONN" package3d_urn="urn:adsk.eagle:package:17097127/1"/>
+<part name="VDD1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VDD" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -1824,6 +1825,9 @@ https://www.mouser.se/datasheet/2/986/Datasheet_-_BT800_Module-1590704.pdf</desc
 <attribute name="DRAWING_NAME" x="236.22" y="-82.55" size="2.54" layer="94"/>
 </instance>
 <instance part="U$1" gate="G$1" x="-30.48" y="43.18" smashed="yes" rot="R90"/>
+<instance part="VDD1" gate="G$1" x="7.62" y="-2.54" smashed="yes">
+<attribute name="VALUE" x="5.08" y="-5.08" size="1.778" layer="96" rot="R90"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -2082,6 +2086,9 @@ https://www.mouser.se/datasheet/2/986/Datasheet_-_BT800_Module-1590704.pdf</desc
 <pinref part="VDD2" gate="G$1" pin="VDD"/>
 <pinref part="U$1" gate="G$1" pin="P$1"/>
 <wire x1="-30.48" y1="50.8" x2="-30.48" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="-30.48" y1="48.26" x2="-33.02" y2="48.26" width="0.1524" layer="91"/>
+<junction x="-30.48" y="48.26"/>
+<label x="-33.02" y="48.26" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -2412,13 +2419,6 @@ https://www.mouser.se/datasheet/2/986/Datasheet_-_BT800_Module-1590704.pdf</desc
 <pinref part="+3V4" gate="G$1" pin="+3V3"/>
 </segment>
 </net>
-<net name="VDD" class="0">
-<segment>
-<pinref part="U$15" gate="G$1" pin="IN@1"/>
-<wire x1="7.62" y1="-25.4" x2="7.62" y2="-22.86" width="0.1524" layer="91"/>
-<label x="7.62" y="-22.86" size="1.778" layer="95" rot="R90" xref="yes"/>
-</segment>
-</net>
 <net name="N$2" class="0">
 <segment>
 <pinref part="R11" gate="G$1" pin="P$1"/>
@@ -2642,6 +2642,13 @@ https://www.mouser.se/datasheet/2/986/Datasheet_-_BT800_Module-1590704.pdf</desc
 <wire x1="86.36" y1="109.22" x2="88.9" y2="109.22" width="0.1524" layer="91"/>
 <junction x="86.36" y="109.22"/>
 <pinref part="+3V6" gate="G$1" pin="+3V3"/>
+</segment>
+</net>
+<net name="VDD" class="0">
+<segment>
+<pinref part="U$15" gate="G$1" pin="IN@1"/>
+<wire x1="7.62" y1="-25.4" x2="7.62" y2="-22.86" width="0.1524" layer="91"/>
+<label x="7.62" y="-22.86" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 </nets>
