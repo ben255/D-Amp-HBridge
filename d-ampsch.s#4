@@ -1650,11 +1650,11 @@ https://www.mouser.se/datasheet/2/986/Datasheet_-_BT800_Module-1590704.pdf</desc
 </class>
 </classes>
 <parts>
-<part name="MFD1" library="amplib" deviceset="MD-HIP4081AIBZ" device="" package3d_urn="urn:adsk.eagle:package:16488529/1"/>
+<part name="MFD1" library="amplib" deviceset="MD-HIP4081AIBZ" device="" package3d_urn="urn:adsk.eagle:package:16488529/1" value="MD"/>
 <part name="D1" library="amplib" deviceset="D-DO-214AC" device="" package3d_urn="urn:adsk.eagle:package:16488630/1"/>
 <part name="D2" library="amplib" deviceset="D-DO-214AC" device="" package3d_urn="urn:adsk.eagle:package:16488630/1"/>
-<part name="MF1" library="amplib" deviceset="MF-PHN210T" device="" package3d_urn="urn:adsk.eagle:package:16497537/1"/>
-<part name="MF2" library="amplib" deviceset="MF-PHN210T" device="" package3d_urn="urn:adsk.eagle:package:16497537/1"/>
+<part name="MF1" library="amplib" deviceset="MF-PHN210T" device="" package3d_urn="urn:adsk.eagle:package:16497537/1" value="MF"/>
+<part name="MF2" library="amplib" deviceset="MF-PHN210T" device="" package3d_urn="urn:adsk.eagle:package:16497537/1" value="MF"/>
 <part name="R4" library="amplib" deviceset="R-RN73C2A4K99B-5K" device="" package3d_urn="urn:adsk.eagle:package:16497579/1" value="5k"/>
 <part name="R3" library="amplib" deviceset="R-RN73C2A4K99B-5K" device="" package3d_urn="urn:adsk.eagle:package:16497579/1" value="5k"/>
 <part name="R2" library="amplib" deviceset="R-RN73C2A4K99B-5K" device="" package3d_urn="urn:adsk.eagle:package:16497579/1" value="5k"/>
@@ -1662,7 +1662,7 @@ https://www.mouser.se/datasheet/2/986/Datasheet_-_BT800_Module-1590704.pdf</desc
 <part name="C2" library="amplib" deviceset="C-EEEFK1H221P-220UF" device="" package3d_urn="urn:adsk.eagle:package:16489456/1" value="220UF"/>
 <part name="C1" library="amplib" deviceset="C-EEEFK1H221P-220UF" device="" package3d_urn="urn:adsk.eagle:package:16489456/1" value="220UF"/>
 <part name="R5" library="amplib" deviceset="R-RN73C2A4K99B-5K" device="" package3d_urn="urn:adsk.eagle:package:16497579/1" value="5k"/>
-<part name="S1" library="amplib" deviceset="S-SPEAKER" device=""/>
+<part name="S1" library="amplib" deviceset="S-SPEAKER" device="" value="SPEAKER"/>
 <part name="C4" library="amplib" deviceset="C-EEEHB1H1R0R-1UF" device="" package3d_urn="urn:adsk.eagle:package:16670631/1" value="1UF"/>
 <part name="C3" library="amplib" deviceset="C-EEEHB1H1R0R-1UF" device="" package3d_urn="urn:adsk.eagle:package:16670631/1" value="1UF"/>
 <part name="U$21" library="amplib" deviceset="I-WURTH-10UH" device="" package3d_urn="urn:adsk.eagle:package:16670781/1"/>
@@ -1690,22 +1690,22 @@ https://www.mouser.se/datasheet/2/986/Datasheet_-_BT800_Module-1590704.pdf</desc
 <part name="+3V2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="+3V3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="U$23" library="amplib" deviceset="USB" device=""/>
-<part name="C10" library="amplib" deviceset="CAP-2.2UF" device="" package3d_urn="urn:adsk.eagle:package:16732970/1"/>
+<part name="C10" library="amplib" deviceset="CAP-2.2UF" device="" package3d_urn="urn:adsk.eagle:package:16732970/1" value="2.2UF"/>
 <part name="D4" library="amplib" deviceset="BI-DIR-5V" device="" package3d_urn="urn:adsk.eagle:package:16844072/1"/>
 <part name="D5" library="amplib" deviceset="BI-DIR-5V" device="" package3d_urn="urn:adsk.eagle:package:16844072/1"/>
-<part name="R6" library="amplib" deviceset="R-27OHM" device="" package3d_urn="urn:adsk.eagle:package:16844125/1"/>
-<part name="R7" library="amplib" deviceset="R-27OHM" device="" package3d_urn="urn:adsk.eagle:package:16844125/1"/>
-<part name="R10" library="amplib" deviceset="R-RN73C2A4K99B-5K" device="" package3d_urn="urn:adsk.eagle:package:16497579/1"/>
+<part name="R6" library="amplib" deviceset="R-27OHM" device="" package3d_urn="urn:adsk.eagle:package:16844125/1" value="27OHM"/>
+<part name="R7" library="amplib" deviceset="R-27OHM" device="" package3d_urn="urn:adsk.eagle:package:16844125/1" value="27OHM"/>
+<part name="R10" library="amplib" deviceset="R-RN73C2A4K99B-5K" device="" package3d_urn="urn:adsk.eagle:package:16497579/1" value="5K"/>
 <part name="R9" library="amplib" deviceset="R-RN73C2A4K99B-5K" device="" package3d_urn="urn:adsk.eagle:package:16497579/1" value="5K"/>
 <part name="U$31" library="amplib" deviceset="PROGRAMCONN" device="" package3d_urn="urn:adsk.eagle:package:16844239/1"/>
 <part name="R8" library="amplib" deviceset="R-RN73C2A4K99B-5K" device="" package3d_urn="urn:adsk.eagle:package:16497579/1" value="5K"/>
 <part name="D3" library="amplib" deviceset="LED_GREEN" device="" package3d_urn="urn:adsk.eagle:package:16844300/1"/>
 <part name="+3V4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="C5" library="amplib" deviceset="C-100NF" device="" package3d_urn="urn:adsk.eagle:package:17050489/1"/>
-<part name="C6" library="amplib" deviceset="C-100NF" device="" package3d_urn="urn:adsk.eagle:package:17050489/1"/>
-<part name="C7" library="amplib" deviceset="C-4.7UF" device="C-4.7UF" package3d_urn="urn:adsk.eagle:package:17050553/1"/>
-<part name="C9" library="amplib" deviceset="C-10NF" device="" package3d_urn="urn:adsk.eagle:package:17050553/1"/>
-<part name="C8" library="amplib" deviceset="C-1UF-NP" device="C-1UF-NP" package3d_urn="urn:adsk.eagle:package:17050632/1"/>
+<part name="C5" library="amplib" deviceset="C-100NF" device="" package3d_urn="urn:adsk.eagle:package:17050489/1" value="100NF"/>
+<part name="C6" library="amplib" deviceset="C-100NF" device="" package3d_urn="urn:adsk.eagle:package:17050489/1" value="100NF"/>
+<part name="C7" library="amplib" deviceset="C-4.7UF" device="C-4.7UF" package3d_urn="urn:adsk.eagle:package:17050553/1" value="4.7UF"/>
+<part name="C9" library="amplib" deviceset="C-10NF" device="" package3d_urn="urn:adsk.eagle:package:17050553/1" value="10NF"/>
+<part name="C8" library="amplib" deviceset="C-1UF-NP" device="C-1UF-NP" package3d_urn="urn:adsk.eagle:package:17050632/1" value="1UF"/>
 <part name="+3V5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="+3V6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="U$1" library="amplib" deviceset="B-BATTERY" device="BATTERYCONN" package3d_urn="urn:adsk.eagle:package:17097127/1"/>
