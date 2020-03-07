@@ -1655,16 +1655,16 @@ https://www.mouser.se/datasheet/2/986/Datasheet_-_BT800_Module-1590704.pdf</desc
 <part name="D2" library="amplib" deviceset="D-DO-214AC" device="" package3d_urn="urn:adsk.eagle:package:16488630/1"/>
 <part name="MF1" library="amplib" deviceset="MF-PHN210T" device="" package3d_urn="urn:adsk.eagle:package:16497537/1"/>
 <part name="MF2" library="amplib" deviceset="MF-PHN210T" device="" package3d_urn="urn:adsk.eagle:package:16497537/1"/>
-<part name="R4" library="amplib" deviceset="R-RN73C2A4K99B-5K" device="" package3d_urn="urn:adsk.eagle:package:16497579/1"/>
-<part name="R3" library="amplib" deviceset="R-RN73C2A4K99B-5K" device="" package3d_urn="urn:adsk.eagle:package:16497579/1"/>
-<part name="R2" library="amplib" deviceset="R-RN73C2A4K99B-5K" device="" package3d_urn="urn:adsk.eagle:package:16497579/1"/>
-<part name="R1" library="amplib" deviceset="R-RN73C2A4K99B-5K" device="" package3d_urn="urn:adsk.eagle:package:16497579/1"/>
-<part name="C2" library="amplib" deviceset="C-EEEFK1H221P-220UF" device="" package3d_urn="urn:adsk.eagle:package:16489456/1"/>
-<part name="C1" library="amplib" deviceset="C-EEEFK1H221P-220UF" device="" package3d_urn="urn:adsk.eagle:package:16489456/1"/>
-<part name="R5" library="amplib" deviceset="R-RN73C2A4K99B-5K" device="" package3d_urn="urn:adsk.eagle:package:16497579/1"/>
+<part name="R4" library="amplib" deviceset="R-RN73C2A4K99B-5K" device="" package3d_urn="urn:adsk.eagle:package:16497579/1" value="5k"/>
+<part name="R3" library="amplib" deviceset="R-RN73C2A4K99B-5K" device="" package3d_urn="urn:adsk.eagle:package:16497579/1" value="5k"/>
+<part name="R2" library="amplib" deviceset="R-RN73C2A4K99B-5K" device="" package3d_urn="urn:adsk.eagle:package:16497579/1" value="5k"/>
+<part name="R1" library="amplib" deviceset="R-RN73C2A4K99B-5K" device="" package3d_urn="urn:adsk.eagle:package:16497579/1" value="5k"/>
+<part name="C2" library="amplib" deviceset="C-EEEFK1H221P-220UF" device="" package3d_urn="urn:adsk.eagle:package:16489456/1" value="220UF"/>
+<part name="C1" library="amplib" deviceset="C-EEEFK1H221P-220UF" device="" package3d_urn="urn:adsk.eagle:package:16489456/1" value="220UF"/>
+<part name="R5" library="amplib" deviceset="R-RN73C2A4K99B-5K" device="" package3d_urn="urn:adsk.eagle:package:16497579/1" value="5k"/>
 <part name="S1" library="amplib" deviceset="S-SPEAKER" device=""/>
-<part name="C4" library="amplib" deviceset="C-EEEHB1H1R0R-1UF" device="" package3d_urn="urn:adsk.eagle:package:16670631/1"/>
-<part name="C3" library="amplib" deviceset="C-EEEHB1H1R0R-1UF" device="" package3d_urn="urn:adsk.eagle:package:16670631/1"/>
+<part name="C4" library="amplib" deviceset="C-EEEHB1H1R0R-1UF" device="" package3d_urn="urn:adsk.eagle:package:16670631/1" value="1UF"/>
+<part name="C3" library="amplib" deviceset="C-EEEHB1H1R0R-1UF" device="" package3d_urn="urn:adsk.eagle:package:16670631/1" value="1UF"/>
 <part name="U$21" library="amplib" deviceset="I-WURTH-10UH" device="" package3d_urn="urn:adsk.eagle:package:16670781/1"/>
 <part name="U$22" library="amplib" deviceset="I-WURTH-10UH" device="" package3d_urn="urn:adsk.eagle:package:16670781/1"/>
 <part name="VDD2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VDD" device=""/>
@@ -1686,26 +1686,26 @@ https://www.mouser.se/datasheet/2/986/Datasheet_-_BT800_Module-1590704.pdf</desc
 <part name="+3V1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="FRAME_B_L" device=""/>
 <part name="FRAME2" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="FRAME_B_L" device=""/>
-<part name="U$16" library="amplib" deviceset="R-RN73C2A4K99B-5K" device="" package3d_urn="urn:adsk.eagle:package:16497579/1"/>
+<part name="R11" library="amplib" deviceset="R-RN73C2A4K99B-5K" device="" package3d_urn="urn:adsk.eagle:package:16497579/1" value="5K"/>
 <part name="+3V2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="+3V3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="U$23" library="amplib" deviceset="USB" device=""/>
-<part name="U$24" library="amplib" deviceset="CAP-2.2UF" device="" package3d_urn="urn:adsk.eagle:package:16732970/1"/>
-<part name="U$25" library="amplib" deviceset="BI-DIR-5V" device="" package3d_urn="urn:adsk.eagle:package:16844072/1"/>
-<part name="U$26" library="amplib" deviceset="BI-DIR-5V" device="" package3d_urn="urn:adsk.eagle:package:16844072/1"/>
-<part name="U$27" library="amplib" deviceset="R-27OHM" device="" package3d_urn="urn:adsk.eagle:package:16844125/1"/>
-<part name="U$28" library="amplib" deviceset="R-27OHM" device="" package3d_urn="urn:adsk.eagle:package:16844125/1"/>
-<part name="U$29" library="amplib" deviceset="R-RN73C2A4K99B-5K" device="" package3d_urn="urn:adsk.eagle:package:16497579/1"/>
-<part name="U$30" library="amplib" deviceset="R-RN73C2A4K99B-5K" device="" package3d_urn="urn:adsk.eagle:package:16497579/1"/>
+<part name="C10" library="amplib" deviceset="CAP-2.2UF" device="" package3d_urn="urn:adsk.eagle:package:16732970/1"/>
+<part name="D4" library="amplib" deviceset="BI-DIR-5V" device="" package3d_urn="urn:adsk.eagle:package:16844072/1"/>
+<part name="D5" library="amplib" deviceset="BI-DIR-5V" device="" package3d_urn="urn:adsk.eagle:package:16844072/1"/>
+<part name="R6" library="amplib" deviceset="R-27OHM" device="" package3d_urn="urn:adsk.eagle:package:16844125/1"/>
+<part name="R7" library="amplib" deviceset="R-27OHM" device="" package3d_urn="urn:adsk.eagle:package:16844125/1"/>
+<part name="R10" library="amplib" deviceset="R-RN73C2A4K99B-5K" device="" package3d_urn="urn:adsk.eagle:package:16497579/1"/>
+<part name="R9" library="amplib" deviceset="R-RN73C2A4K99B-5K" device="" package3d_urn="urn:adsk.eagle:package:16497579/1" value="5K"/>
 <part name="U$31" library="amplib" deviceset="PROGRAMCONN" device="" package3d_urn="urn:adsk.eagle:package:16844239/1"/>
-<part name="U$32" library="amplib" deviceset="R-RN73C2A4K99B-5K" device="" package3d_urn="urn:adsk.eagle:package:16497579/1"/>
-<part name="U$33" library="amplib" deviceset="LED_GREEN" device="" package3d_urn="urn:adsk.eagle:package:16844300/1"/>
+<part name="R8" library="amplib" deviceset="R-RN73C2A4K99B-5K" device="" package3d_urn="urn:adsk.eagle:package:16497579/1" value="5K"/>
+<part name="D3" library="amplib" deviceset="LED_GREEN" device="" package3d_urn="urn:adsk.eagle:package:16844300/1"/>
 <part name="+3V4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="U$34" library="amplib" deviceset="C-100NF" device="" package3d_urn="urn:adsk.eagle:package:17050489/1"/>
-<part name="U$35" library="amplib" deviceset="C-100NF" device="" package3d_urn="urn:adsk.eagle:package:17050489/1"/>
-<part name="U$36" library="amplib" deviceset="C-4.7UF" device="C-4.7UF" package3d_urn="urn:adsk.eagle:package:17050553/1"/>
-<part name="U$37" library="amplib" deviceset="C-10NF" device="" package3d_urn="urn:adsk.eagle:package:17050553/1"/>
-<part name="U$38" library="amplib" deviceset="C-1UF-NP" device="C-1UF-NP" package3d_urn="urn:adsk.eagle:package:17050632/1"/>
+<part name="C5" library="amplib" deviceset="C-100NF" device="" package3d_urn="urn:adsk.eagle:package:17050489/1"/>
+<part name="C6" library="amplib" deviceset="C-100NF" device="" package3d_urn="urn:adsk.eagle:package:17050489/1"/>
+<part name="C7" library="amplib" deviceset="C-4.7UF" device="C-4.7UF" package3d_urn="urn:adsk.eagle:package:17050553/1"/>
+<part name="C9" library="amplib" deviceset="C-10NF" device="" package3d_urn="urn:adsk.eagle:package:17050553/1"/>
+<part name="C8" library="amplib" deviceset="C-1UF-NP" device="C-1UF-NP" package3d_urn="urn:adsk.eagle:package:17050632/1"/>
 <part name="+3V5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="+3V6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="U$1" library="amplib" deviceset="B-BATTERY" device="BATTERYCONN" package3d_urn="urn:adsk.eagle:package:17097127/1"/>
@@ -2181,7 +2181,7 @@ https://www.mouser.se/datasheet/2/986/Datasheet_-_BT800_Module-1590704.pdf</desc
 <attribute name="SHEET" x="279.4" y="-105.41" size="2.54" layer="94"/>
 <attribute name="DRAWING_NAME" x="210.82" y="-87.63" size="2.54" layer="94"/>
 </instance>
-<instance part="U$16" gate="G$1" x="73.66" y="55.88" smashed="yes" rot="R180">
+<instance part="R11" gate="G$1" x="73.66" y="55.88" smashed="yes" rot="R180">
 <attribute name="NAME" x="81.28" y="50.8" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="81.28" y="60.96" size="1.778" layer="96" rot="R180"/>
 </instance>
@@ -2192,60 +2192,60 @@ https://www.mouser.se/datasheet/2/986/Datasheet_-_BT800_Module-1590704.pdf</desc
 <attribute name="VALUE" x="114.3" y="88.9" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="U$23" gate="G$1" x="76.2" y="-22.86" smashed="yes" rot="R180"/>
-<instance part="U$24" gate="G$1" x="99.06" y="-15.24" smashed="yes">
+<instance part="C10" gate="G$1" x="99.06" y="-15.24" smashed="yes">
 <attribute name="NAME" x="91.44" y="-10.16" size="1.27" layer="95"/>
 <attribute name="VALUE" x="91.44" y="-20.32" size="1.27" layer="96"/>
 </instance>
-<instance part="U$25" gate="G$1" x="45.72" y="2.54" smashed="yes">
+<instance part="D4" gate="G$1" x="45.72" y="2.54" smashed="yes">
 <attribute name="NAME" x="40.64" y="10.16" size="1.27" layer="95"/>
 </instance>
-<instance part="U$26" gate="G$1" x="45.72" y="-10.16" smashed="yes">
+<instance part="D5" gate="G$1" x="45.72" y="-10.16" smashed="yes">
 <attribute name="NAME" x="40.64" y="-2.54" size="1.27" layer="95"/>
 </instance>
-<instance part="U$27" gate="G$1" x="68.58" y="22.86" smashed="yes" rot="R90">
+<instance part="R6" gate="G$1" x="68.58" y="22.86" smashed="yes" rot="R90">
 <attribute name="NAME" x="63.5" y="15.24" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="73.66" y="15.24" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="U$28" gate="G$1" x="78.74" y="22.86" smashed="yes" rot="R90">
+<instance part="R7" gate="G$1" x="78.74" y="22.86" smashed="yes" rot="R90">
 <attribute name="NAME" x="73.66" y="15.24" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="83.82" y="15.24" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="U$29" gate="G$1" x="205.74" y="55.88" smashed="yes">
+<instance part="R10" gate="G$1" x="205.74" y="55.88" smashed="yes">
 <attribute name="NAME" x="198.12" y="60.96" size="1.778" layer="95"/>
 <attribute name="VALUE" x="198.12" y="50.8" size="1.778" layer="96"/>
 </instance>
-<instance part="U$30" gate="G$1" x="-40.64" y="121.92" smashed="yes" rot="R90">
+<instance part="R9" gate="G$1" x="-40.64" y="121.92" smashed="yes" rot="R90">
 <attribute name="NAME" x="-45.72" y="114.3" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="-35.56" y="114.3" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="U$31" gate="G$1" x="-99.06" y="111.76" smashed="yes"/>
-<instance part="U$32" gate="G$1" x="25.4" y="91.44" smashed="yes" rot="R90">
+<instance part="R8" gate="G$1" x="25.4" y="91.44" smashed="yes" rot="R90">
 <attribute name="NAME" x="20.32" y="83.82" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="30.48" y="83.82" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="U$33" gate="G$1" x="25.4" y="119.38" smashed="yes" rot="R90">
+<instance part="D3" gate="G$1" x="25.4" y="119.38" smashed="yes" rot="R90">
 <attribute name="NAME" x="17.78" y="111.76" size="1.27" layer="95" rot="R90"/>
 </instance>
 <instance part="+3V4" gate="G$1" x="-76.2" y="73.66" smashed="yes" rot="R90">
 <attribute name="VALUE" x="-71.12" y="71.12" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="U$34" gate="G$1" x="73.66" y="127" smashed="yes" rot="R270">
+<instance part="C5" gate="G$1" x="73.66" y="127" smashed="yes" rot="R270">
 <attribute name="NAME" x="78.74" y="134.62" size="1.27" layer="95" rot="R270"/>
 <attribute name="VALUE" x="68.58" y="134.62" size="1.27" layer="96" rot="R270"/>
 </instance>
-<instance part="U$35" gate="G$1" x="83.82" y="127" smashed="yes" rot="R270">
+<instance part="C6" gate="G$1" x="83.82" y="127" smashed="yes" rot="R270">
 <attribute name="NAME" x="88.9" y="134.62" size="1.27" layer="95" rot="R270"/>
 <attribute name="VALUE" x="78.74" y="134.62" size="1.27" layer="96" rot="R270"/>
 </instance>
-<instance part="U$36" gate="G$1" x="96.52" y="127" smashed="yes" rot="R270">
+<instance part="C7" gate="G$1" x="96.52" y="127" smashed="yes" rot="R270">
 <attribute name="NAME" x="101.6" y="134.62" size="1.27" layer="95" rot="R270"/>
 <attribute name="VALUE" x="91.44" y="134.62" size="1.27" layer="96" rot="R270"/>
 </instance>
-<instance part="U$37" gate="G$1" x="73.66" y="99.06" smashed="yes" rot="R270">
+<instance part="C9" gate="G$1" x="73.66" y="99.06" smashed="yes" rot="R270">
 <attribute name="NAME" x="78.74" y="106.68" size="1.27" layer="95" rot="R270"/>
 <attribute name="VALUE" x="68.58" y="106.68" size="1.27" layer="96" rot="R270"/>
 </instance>
-<instance part="U$38" gate="G$1" x="86.36" y="99.06" smashed="yes" rot="R270">
+<instance part="C8" gate="G$1" x="86.36" y="99.06" smashed="yes" rot="R270">
 <attribute name="NAME" x="91.44" y="106.68" size="1.27" layer="95" rot="R270"/>
 <attribute name="VALUE" x="81.28" y="106.68" size="1.27" layer="96" rot="R270"/>
 </instance>
@@ -2266,7 +2266,7 @@ https://www.mouser.se/datasheet/2/986/Datasheet_-_BT800_Module-1590704.pdf</desc
 <label x="-2.54" y="-20.32" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$16" gate="G$1" pin="P$2"/>
+<pinref part="R11" gate="G$1" pin="P$2"/>
 <wire x1="58.42" y1="55.88" x2="55.88" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="U$13" gate="G$1" pin="GND@3"/>
 <wire x1="99.06" y1="50.8" x2="58.42" y2="50.8" width="0.1524" layer="91"/>
@@ -2314,14 +2314,14 @@ https://www.mouser.se/datasheet/2/986/Datasheet_-_BT800_Module-1590704.pdf</desc
 <label x="63.5" y="-17.78" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$24" gate="G$1" pin="P$2"/>
+<pinref part="C10" gate="G$1" pin="P$2"/>
 <wire x1="104.14" y1="-15.24" x2="106.68" y2="-15.24" width="0.1524" layer="91"/>
 <label x="106.68" y="-15.24" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$25" gate="G$1" pin="P$1"/>
+<pinref part="D4" gate="G$1" pin="P$1"/>
 <wire x1="35.56" y1="2.54" x2="33.02" y2="2.54" width="0.1524" layer="91"/>
-<pinref part="U$26" gate="G$1" pin="P$1"/>
+<pinref part="D5" gate="G$1" pin="P$1"/>
 <wire x1="35.56" y1="-10.16" x2="33.02" y2="-10.16" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="-10.16" x2="33.02" y2="-2.54" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="-2.54" x2="33.02" y2="2.54" width="0.1524" layer="91"/>
@@ -2330,12 +2330,12 @@ https://www.mouser.se/datasheet/2/986/Datasheet_-_BT800_Module-1590704.pdf</desc
 <label x="30.48" y="-2.54" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$29" gate="G$1" pin="P$2"/>
+<pinref part="R10" gate="G$1" pin="P$2"/>
 <wire x1="220.98" y1="55.88" x2="226.06" y2="55.88" width="0.1524" layer="91"/>
 <label x="226.06" y="55.88" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$30" gate="G$1" pin="P$2"/>
+<pinref part="R9" gate="G$1" pin="P$2"/>
 <wire x1="-40.64" y1="137.16" x2="-40.64" y2="139.7" width="0.1524" layer="91"/>
 <label x="-40.64" y="139.7" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
@@ -2345,7 +2345,7 @@ https://www.mouser.se/datasheet/2/986/Datasheet_-_BT800_Module-1590704.pdf</desc
 <label x="-93.98" y="106.68" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$33" gate="G$1" pin="P$2"/>
+<pinref part="D3" gate="G$1" pin="P$2"/>
 <wire x1="25.4" y1="127" x2="25.4" y2="129.54" width="0.1524" layer="91"/>
 <label x="25.4" y="129.54" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
@@ -2365,12 +2365,12 @@ https://www.mouser.se/datasheet/2/986/Datasheet_-_BT800_Module-1590704.pdf</desc
 <label x="-78.74" y="55.88" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$34" gate="G$1" pin="P$2"/>
+<pinref part="C5" gate="G$1" pin="P$2"/>
 <wire x1="73.66" y1="121.92" x2="73.66" y2="119.38" width="0.1524" layer="91"/>
-<pinref part="U$35" gate="G$1" pin="P$2"/>
+<pinref part="C6" gate="G$1" pin="P$2"/>
 <wire x1="73.66" y1="119.38" x2="83.82" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="83.82" y1="119.38" x2="83.82" y2="121.92" width="0.1524" layer="91"/>
-<pinref part="U$36" gate="G$1" pin="P$2"/>
+<pinref part="C7" gate="G$1" pin="P$2"/>
 <wire x1="83.82" y1="119.38" x2="96.52" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="119.38" x2="96.52" y2="121.92" width="0.1524" layer="91"/>
 <junction x="83.82" y="119.38"/>
@@ -2378,9 +2378,9 @@ https://www.mouser.se/datasheet/2/986/Datasheet_-_BT800_Module-1590704.pdf</desc
 <label x="83.82" y="116.84" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$37" gate="G$1" pin="P$2"/>
+<pinref part="C9" gate="G$1" pin="P$2"/>
 <wire x1="73.66" y1="93.98" x2="73.66" y2="91.44" width="0.1524" layer="91"/>
-<pinref part="U$38" gate="G$1" pin="P$2"/>
+<pinref part="C8" gate="G$1" pin="P$2"/>
 <wire x1="73.66" y1="91.44" x2="78.74" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="91.44" x2="86.36" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="91.44" x2="86.36" y2="93.98" width="0.1524" layer="91"/>
@@ -2421,7 +2421,7 @@ https://www.mouser.se/datasheet/2/986/Datasheet_-_BT800_Module-1590704.pdf</desc
 </net>
 <net name="N$2" class="0">
 <segment>
-<pinref part="U$16" gate="G$1" pin="P$1"/>
+<pinref part="R11" gate="G$1" pin="P$1"/>
 <pinref part="U$13" gate="G$1" pin="SPI_PCM"/>
 <wire x1="88.9" y1="55.88" x2="99.06" y2="55.88" width="0.1524" layer="91"/>
 </segment>
@@ -2429,10 +2429,10 @@ https://www.mouser.se/datasheet/2/986/Datasheet_-_BT800_Module-1590704.pdf</desc
 <net name="N$4" class="0">
 <segment>
 <pinref part="U$23" gate="G$1" pin="+D@3"/>
-<pinref part="U$25" gate="G$1" pin="P$2"/>
+<pinref part="D4" gate="G$1" pin="P$2"/>
 <wire x1="73.66" y1="2.54" x2="73.66" y2="-17.78" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="2.54" x2="55.88" y2="2.54" width="0.1524" layer="91"/>
-<pinref part="U$27" gate="G$1" pin="P$1"/>
+<pinref part="R6" gate="G$1" pin="P$1"/>
 <wire x1="68.58" y1="7.62" x2="68.58" y2="5.08" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="5.08" x2="73.66" y2="5.08" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="5.08" x2="73.66" y2="2.54" width="0.1524" layer="91"/>
@@ -2442,10 +2442,10 @@ https://www.mouser.se/datasheet/2/986/Datasheet_-_BT800_Module-1590704.pdf</desc
 <net name="N$10" class="0">
 <segment>
 <pinref part="U$23" gate="G$1" pin="-D@2"/>
-<pinref part="U$26" gate="G$1" pin="P$2"/>
+<pinref part="D5" gate="G$1" pin="P$2"/>
 <wire x1="78.74" y1="-10.16" x2="78.74" y2="-17.78" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="-10.16" x2="78.74" y2="-10.16" width="0.1524" layer="91"/>
-<pinref part="U$28" gate="G$1" pin="P$1"/>
+<pinref part="R7" gate="G$1" pin="P$1"/>
 <wire x1="78.74" y1="-10.16" x2="78.74" y2="7.62" width="0.1524" layer="91"/>
 <junction x="78.74" y="-10.16"/>
 </segment>
@@ -2456,7 +2456,7 @@ https://www.mouser.se/datasheet/2/986/Datasheet_-_BT800_Module-1590704.pdf</desc
 <wire x1="99.06" y1="40.64" x2="83.82" y2="40.64" width="0.1524" layer="91"/>
 <pinref part="U$23" gate="G$1" pin="VCC@1"/>
 <wire x1="83.82" y1="40.64" x2="83.82" y2="-15.24" width="0.1524" layer="91"/>
-<pinref part="U$24" gate="G$1" pin="P$1"/>
+<pinref part="C10" gate="G$1" pin="P$1"/>
 <wire x1="83.82" y1="-15.24" x2="83.82" y2="-17.78" width="0.1524" layer="91"/>
 <wire x1="91.44" y1="-15.24" x2="83.82" y2="-15.24" width="0.1524" layer="91"/>
 <junction x="83.82" y="-15.24"/>
@@ -2466,7 +2466,7 @@ https://www.mouser.se/datasheet/2/986/Datasheet_-_BT800_Module-1590704.pdf</desc
 <segment>
 <pinref part="U$13" gate="G$1" pin="USB-"/>
 <wire x1="99.06" y1="45.72" x2="78.74" y2="45.72" width="0.1524" layer="91"/>
-<pinref part="U$28" gate="G$1" pin="P$2"/>
+<pinref part="R7" gate="G$1" pin="P$2"/>
 <wire x1="78.74" y1="38.1" x2="78.74" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -2474,7 +2474,7 @@ https://www.mouser.se/datasheet/2/986/Datasheet_-_BT800_Module-1590704.pdf</desc
 <segment>
 <pinref part="U$13" gate="G$1" pin="USB+"/>
 <wire x1="99.06" y1="48.26" x2="68.58" y2="48.26" width="0.1524" layer="91"/>
-<pinref part="U$27" gate="G$1" pin="P$2"/>
+<pinref part="R6" gate="G$1" pin="P$2"/>
 <wire x1="68.58" y1="48.26" x2="68.58" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -2518,7 +2518,7 @@ https://www.mouser.se/datasheet/2/986/Datasheet_-_BT800_Module-1590704.pdf</desc
 <segment>
 <pinref part="U$13" gate="G$1" pin="PCM_IN"/>
 <wire x1="144.78" y1="55.88" x2="190.5" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="U$29" gate="G$1" pin="P$1"/>
+<pinref part="R10" gate="G$1" pin="P$1"/>
 </segment>
 </net>
 <net name="PWM" class="0">
@@ -2539,7 +2539,7 @@ https://www.mouser.se/datasheet/2/986/Datasheet_-_BT800_Module-1590704.pdf</desc
 <segment>
 <pinref part="U$14" gate="G$1" pin="BOOT0"/>
 <wire x1="-40.64" y1="88.9" x2="-40.64" y2="106.68" width="0.1524" layer="91"/>
-<pinref part="U$30" gate="G$1" pin="P$1"/>
+<pinref part="R9" gate="G$1" pin="P$1"/>
 </segment>
 </net>
 <net name="NRST" class="0">
@@ -2581,14 +2581,14 @@ https://www.mouser.se/datasheet/2/986/Datasheet_-_BT800_Module-1590704.pdf</desc
 </net>
 <net name="N$18" class="0">
 <segment>
-<pinref part="U$32" gate="G$1" pin="P$2"/>
-<pinref part="U$33" gate="G$1" pin="P$1"/>
+<pinref part="R8" gate="G$1" pin="P$2"/>
+<pinref part="D3" gate="G$1" pin="P$1"/>
 <wire x1="25.4" y1="106.68" x2="25.4" y2="111.76" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$19" class="0">
 <segment>
-<pinref part="U$32" gate="G$1" pin="P$1"/>
+<pinref part="R8" gate="G$1" pin="P$1"/>
 <wire x1="25.4" y1="76.2" x2="25.4" y2="60.96" width="0.1524" layer="91"/>
 <pinref part="U$14" gate="G$1" pin="PA10"/>
 <wire x1="25.4" y1="60.96" x2="-7.62" y2="60.96" width="0.1524" layer="91"/>
@@ -2606,13 +2606,13 @@ https://www.mouser.se/datasheet/2/986/Datasheet_-_BT800_Module-1590704.pdf</desc
 <label x="-22.86" y="15.24" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$34" gate="G$1" pin="P$1"/>
+<pinref part="C5" gate="G$1" pin="P$1"/>
 <wire x1="73.66" y1="134.62" x2="73.66" y2="137.16" width="0.1524" layer="91"/>
-<pinref part="U$35" gate="G$1" pin="P$1"/>
+<pinref part="C6" gate="G$1" pin="P$1"/>
 <wire x1="73.66" y1="137.16" x2="81.28" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="137.16" x2="83.82" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="83.82" y1="137.16" x2="83.82" y2="134.62" width="0.1524" layer="91"/>
-<pinref part="U$36" gate="G$1" pin="P$1"/>
+<pinref part="C7" gate="G$1" pin="P$1"/>
 <wire x1="83.82" y1="137.16" x2="96.52" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="137.16" x2="96.52" y2="134.62" width="0.1524" layer="91"/>
 <junction x="83.82" y="137.16"/>
@@ -2631,10 +2631,10 @@ https://www.mouser.se/datasheet/2/986/Datasheet_-_BT800_Module-1590704.pdf</desc
 <label x="-91.44" y="53.34" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$37" gate="G$1" pin="P$1"/>
+<pinref part="C9" gate="G$1" pin="P$1"/>
 <wire x1="73.66" y1="106.68" x2="73.66" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="109.22" x2="86.36" y2="109.22" width="0.1524" layer="91"/>
-<pinref part="U$38" gate="G$1" pin="P$1"/>
+<pinref part="C8" gate="G$1" pin="P$1"/>
 <wire x1="86.36" y1="109.22" x2="86.36" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="109.22" x2="71.12" y2="109.22" width="0.1524" layer="91"/>
 <junction x="73.66" y="109.22"/>

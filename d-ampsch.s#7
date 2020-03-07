@@ -1697,7 +1697,7 @@ https://www.mouser.se/datasheet/2/986/Datasheet_-_BT800_Module-1590704.pdf</desc
 <part name="R7" library="amplib" deviceset="R-27OHM" device="" package3d_urn="urn:adsk.eagle:package:16844125/1" value="27OHM"/>
 <part name="R10" library="amplib" deviceset="R-RN73C2A4K99B-5K" device="" package3d_urn="urn:adsk.eagle:package:16497579/1" value="5K"/>
 <part name="R9" library="amplib" deviceset="R-RN73C2A4K99B-5K" device="" package3d_urn="urn:adsk.eagle:package:16497579/1" value="5K"/>
-<part name="U$31" library="amplib" deviceset="PROGRAMCONN" device="" package3d_urn="urn:adsk.eagle:package:16844239/1"/>
+<part name="U$31" library="amplib" deviceset="PROGRAMCONN" device="" package3d_urn="urn:adsk.eagle:package:16844239/1" value=""/>
 <part name="R8" library="amplib" deviceset="R-RN73C2A4K99B-5K" device="" package3d_urn="urn:adsk.eagle:package:16497579/1" value="5K"/>
 <part name="D3" library="amplib" deviceset="LED_GREEN" device="" package3d_urn="urn:adsk.eagle:package:16844300/1"/>
 <part name="+3V4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
