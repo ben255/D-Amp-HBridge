@@ -1437,9 +1437,25 @@ design rules under a new name.</description>
 <contactref element="U$14" pad="9"/>
 <contactref element="U$14" pad="48"/>
 <contactref element="U$14" pad="24"/>
+<contactref element="C5" pad="1"/>
+<contactref element="C6" pad="1"/>
+<contactref element="C7" pad="1"/>
+<wire x1="72.346" y1="68.2566" x2="72.5306" y2="68.072" width="0.2" layer="1"/>
+<wire x1="62.171" y1="87.376" x2="63.441" y2="88.646" width="0.2" layer="1"/>
+<wire x1="67.564" y1="88.646" x2="67.564" y2="87.4894" width="0.2" layer="1"/>
+<wire x1="67.564" y1="87.4894" x2="67.4506" y2="87.376" width="0.2" layer="1"/>
+<wire x1="63.441" y1="88.646" x2="67.564" y2="88.646" width="0.2" layer="1"/>
+<contactref element="C9" pad="1"/>
+<contactref element="C8" pad="1"/>
+<wire x1="60.5" y1="75.839" x2="60.198" y2="76.141" width="0.2" layer="1"/>
+<wire x1="63.2852" y1="70.866" x2="60.198" y2="73.9532" width="0.2" layer="1"/>
+<wire x1="60.198" y1="73.9532" x2="60.198" y2="76.141" width="0.2" layer="1"/>
+<wire x1="66.846" y1="81.2673" x2="67.4506" y2="87.376" width="0" layer="19" extent="1-1"/>
 <wire x1="65.4177" y1="79.839" x2="66.846" y2="81.2673" width="0" layer="19" extent="1-1"/>
 <wire x1="65.4177" y1="75.839" x2="65.4177" y2="79.839" width="0" layer="19" extent="1-1"/>
+<wire x1="63.2852" y1="70.866" x2="63.246" y2="66.802" width="0" layer="19" extent="1-1"/>
 <wire x1="72.346" y1="72.9107" x2="65.4177" y2="75.839" width="0" layer="19" extent="1-1"/>
+<wire x1="72.346" y1="68.2566" x2="72.346" y2="72.9107" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$2">
 <contactref element="R11" pad="1"/>
@@ -1608,24 +1624,6 @@ design rules under a new name.</description>
 <wire x1="73.7743" y1="77.339" x2="77.855" y2="77.339" width="0.2" layer="1"/>
 <wire x1="78.0089" y1="77.1851" x2="78.0089" y2="72.39" width="0.2" layer="1"/>
 <wire x1="77.855" y1="77.339" x2="78.0089" y2="77.1851" width="0.2" layer="1"/>
-</signal>
-<signal name="CON-VDD">
-<contactref element="C5" pad="1"/>
-<contactref element="C6" pad="1"/>
-<contactref element="C7" pad="1"/>
-<wire x1="72.346" y1="68.2566" x2="72.5306" y2="68.072" width="0.2" layer="1"/>
-<wire x1="62.171" y1="87.376" x2="63.441" y2="88.646" width="0.2" layer="1"/>
-<wire x1="67.564" y1="88.646" x2="67.564" y2="87.4894" width="0.2" layer="1"/>
-<wire x1="67.564" y1="87.4894" x2="67.4506" y2="87.376" width="0.2" layer="1"/>
-<wire x1="63.441" y1="88.646" x2="67.564" y2="88.646" width="0.2" layer="1"/>
-<wire x1="72.346" y1="68.2566" x2="67.4506" y2="87.376" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="CON-VDDA">
-<contactref element="C9" pad="1"/>
-<contactref element="C8" pad="1"/>
-<wire x1="60.5" y1="75.839" x2="60.198" y2="76.141" width="0.2" layer="1"/>
-<wire x1="63.2852" y1="70.866" x2="60.198" y2="73.9532" width="0.2" layer="1"/>
-<wire x1="60.198" y1="73.9532" x2="60.198" y2="76.141" width="0.2" layer="1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
