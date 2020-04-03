@@ -1337,6 +1337,7 @@ https://www.mouser.se/datasheet/2/986/Datasheet_-_BT800_Module-1590704.pdf</desc
 </devices>
 </deviceset>
 <deviceset name="I-WURTH-10UH">
+<description>https://se.rs-online.com/web/p/products/1683332/</description>
 <gates>
 <gate name="G$1" symbol="I-WURTH-10UH" x="0" y="0"/>
 </gates>
@@ -1556,6 +1557,7 @@ https://www.mouser.se/datasheet/2/986/Datasheet_-_BT800_Module-1590704.pdf</desc
 </devices>
 </deviceset>
 <deviceset name="R-27OHM">
+<description>RS-artikelnummer 866-7370</description>
 <gates>
 <gate name="G$1" symbol="R-27OHM" x="0" y="0"/>
 </gates>

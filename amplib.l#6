@@ -1603,6 +1603,8 @@ https://www.mouser.se/datasheet/2/986/Datasheet_-_BT800_Module-1590704.pdf</desc
 </devices>
 </deviceset>
 <deviceset name="C-10NF">
+<description>&lt;a href="https://docs.rs-online.com/9e65/0900766b8104796c.pdf"&gt;datasheet&lt;/a&gt;
+&lt;p&gt;&lt;a href="https://se.rs-online.com/web/p/mlccs-multilayer-ceramic-capacitors/7512226/"&gt;RS-artikelnummer 751-2226&lt;/a&gt;&lt;/p&gt;</description>
 <gates>
 <gate name="G$1" symbol="C-10NF" x="2.54" y="0"/>
 </gates>

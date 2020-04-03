@@ -1273,15 +1273,14 @@ https://www.mouser.se/datasheet/2/986/Datasheet_-_BT800_Module-1590704.pdf</desc
 </devices>
 </deviceset>
 <deviceset name="B-BATTERY">
+<description>&lt;a href="https://se.rs-online.com/web/p/ac-dc-adapters/1217132/"&gt;acdcadapter, RS-artikelnummer 121-7132&lt;/a&gt;
+&lt;p&gt;&lt;a href="https://se.rs-online.com/web/p/dc-power-sockets/1224877/"&gt;RS-artikelnummer 122-4877&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://docs.rs-online.com/1072/0900766b8168402f.pdf"&gt;datasheet&lt;/a&gt;&lt;/p&gt;</description>
 <gates>
 <gate name="G$1" symbol="B-BATTERY" x="2.54" y="0"/>
 </gates>
 <devices>
-<device name="" package="BATTERY">
-<connects>
-<connect gate="G$1" pin="P$1" pad="P$2"/>
-<connect gate="G$1" pin="P$2" pad="P$1"/>
-</connects>
+<device name="">
 <technologies>
 <technology name=""/>
 </technologies>

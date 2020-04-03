@@ -1191,7 +1191,6 @@ design rules under a new name.</description>
 <wire x1="43.18" y1="7.62" x2="48.26" y2="7.62" width="1.8288" layer="1"/>
 <wire x1="48.26" y1="7.62" x2="48.26" y2="3.81" width="1.8288" layer="1"/>
 <wire x1="39.985" y1="12.7" x2="31.095" y2="21.59" width="1.8288" layer="1"/>
-<wire x1="31.095" y1="21.59" x2="30.48" y2="21.59" width="1.8288" layer="1"/>
 <wire x1="30.0525" y1="22.855" x2="31.095" y2="21.8125" width="1.8288" layer="1"/>
 <wire x1="31.095" y1="21.8125" x2="31.095" y2="21.59" width="1.8288" layer="1"/>
 </signal>
